@@ -34,7 +34,7 @@ class RankAdapter(
         holder.rankTitle.text = item.rankTitle
         holder.scoreText.text = ctx.getString(R.string.rank_score_format, item.score)
         holder.avatar.setImageResource(
-            if (item.avatarResId != 0) item.avatarResId else R.drawable.avatar_default
+            if (item.avatarResId != 0) item.avatarResId else R.drawable.avatar_student_default
         )
         holder.avatar.post {
             holder.avatar.outlineProvider = object : ViewOutlineProvider() {

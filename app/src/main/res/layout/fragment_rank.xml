@@ -15,9 +15,8 @@
         android:paddingHorizontal="20dp"
         android:paddingTop="24dp"
         android:text="@string/rank_title"
-        android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+        android:textAppearance="@style/AppTextTitle"
         android:textColor="?attr/colorOnSurface"
-        android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -28,7 +27,7 @@
         android:paddingHorizontal="20dp"
         android:layout_marginTop="6dp"
         android:text="@string/rank_subtitle"
-        android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+        android:textAppearance="@style/AppTextCaption"
         android:textColor="?attr/colorOnSurfaceVariant"
         app:layout_constraintTop_toBottomOf="@id/rank_header_title" />
 
@@ -61,7 +60,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/rank_my_score"
-                    android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                    android:textAppearance="@style/AppTextCaption"
                     android:textColor="?attr/colorOnPrimaryContainer"
                     android:alpha="0.8" />
                 <TextView
@@ -69,9 +68,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                    android:textAppearance="@style/AppTextSection"
                     android:textColor="?attr/colorOnPrimaryContainer"
-                    android:textStyle="bold"
                     tools:text="42 問正解" />
             </LinearLayout>
 
@@ -85,7 +83,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/rank_position_label"
-                    android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                    android:textAppearance="@style/AppTextCaption"
                     android:textColor="?attr/colorOnPrimaryContainer"
                     android:alpha="0.8" />
                 <TextView
@@ -93,16 +91,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                    android:textAppearance="@style/AppTextSection"
                     android:textColor="?attr/colorOnPrimaryContainer"
-                    android:textStyle="bold"
                     tools:text="第5位" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="@string/rank_current"
-                    android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                    android:textAppearance="@style/AppTextCaption"
                     android:textColor="?attr/colorOnPrimaryContainer"
                     android:alpha="0.8" />
                 <TextView
@@ -110,7 +107,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                    android:textAppearance="@style/AppTextBody"
                     android:textColor="?attr/colorOnPrimaryContainer"
                     tools:text="雑学見習い" />
             </LinearLayout>
@@ -125,9 +122,7 @@
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        app:cardBackgroundColor="?attr/colorSurfaceContainerHighest"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="2dp"
+        style="@style/AppCard"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/rank_my_score_card"
         app:strokeWidth="0dp">

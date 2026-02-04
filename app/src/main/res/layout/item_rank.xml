@@ -34,10 +34,8 @@
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:textAppearance="@style/AppTextSection"
                 android:textColor="?attr/colorOnSurfaceVariant"
-                android:textSize="16sp"
-                android:textStyle="bold"
                 tools:text="1" />
         </FrameLayout>
 
@@ -49,8 +47,8 @@
             android:background="@drawable/bg_avatar_circle"
             android:contentDescription="@null"
             android:scaleType="centerCrop"
-            android:src="@drawable/avatar_default"
-            tools:src="@drawable/avatar_default" />
+            android:src="@drawable/avatar_student_default"
+            tools:src="@drawable/avatar_student_default" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -71,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 android:ellipsize="end"
-                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:textAppearance="@style/AppTextBody"
                 android:textColor="?attr/colorOnSurface"
                 android:textStyle="bold"
                 tools:text="ユーザー" />
@@ -85,7 +83,7 @@
                     android:paddingHorizontal="8dp"
                     android:paddingVertical="2dp"
                     android:text="@string/rank_you"
-                    android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+                    android:textAppearance="@style/AppBadge"
                     android:textColor="?attr/colorPrimary"
                     android:visibility="gone"
                     tools:visibility="visible"
@@ -97,7 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                android:textAppearance="@style/AppTextCaption"
                 android:textColor="?attr/colorOnSurfaceVariant"
                 tools:text="雑学見習い" />
 
@@ -106,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                android:textAppearance="@style/AppTextCaption"
                 android:textColor="?attr/colorPrimary"
                 tools:text="42 問正解" />
         </LinearLayout>

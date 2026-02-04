@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Chip 风格：状态标签，非主要操作，描边与文案弱化 -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/manga_chip" />
+    <solid android:color="@color/surfaceContainerHigh" />
     <stroke
         android:width="1dp"
-        android:color="@color/manga_border" />
-    <corners android:radius="12dp" />
+        android:color="@color/outlineVariant" />
+    <corners android:radius="8dp" />
     <padding
-        android:bottom="6dp"
-        android:left="12dp"
-        android:right="12dp"
-        android:top="6dp" />
+        android:bottom="4dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="4dp" />
 </shape>

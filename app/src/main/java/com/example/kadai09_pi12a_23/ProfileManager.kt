@@ -22,7 +22,7 @@ object ProfileManager {
         prefs(context).edit().putString(KEY_NICKNAME, nickname).apply()
     }
 
-    /** 预设头像资源 ID，0 表示默认（avatar_default） */
+    /** 预设头像资源 ID，0 表示默认（avatar_student_default） */
     fun getAvatarResId(context: Context): Int =
         prefs(context).getInt(KEY_AVATAR_RES_ID, 0)
 

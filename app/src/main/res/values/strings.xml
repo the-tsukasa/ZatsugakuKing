@@ -2,12 +2,13 @@
     <string name="app_name">雑学王</string>
     <string name="app_title">雑学王</string>
     <string name="app_subtitle">豆知識で王になろう</string>
-    <string name="main_instruction">毎回ランダムで5問出題。答えを選んで「回答」をタップ。正解・不正解はその場で表示され、5問終了まで進めます。リセットで何度でも挑戦できます。</string>
+    <string name="main_instruction">毎回ランダムで5問出題。答えを選んで「回答」をタップ。正解・不正解はその場で表示され、5問終了まで進めます。終了後はもう一度挑戦またはホームに戻れます。</string>
     <string name="main_feature_title">このアプリの特徴</string>
     <string name="main_feature_1">・毎回ちがう5問がランダムで出題</string>
     <string name="main_feature_2">・答えはその場で正解／不正解を表示</string>
-    <string name="main_feature_3">・リセットで何度でも挑戦可能</string>
+    <string name="main_feature_3">・終了後はもう一度挑戦またはホームに戻れる</string>
     <string name="start_quiz">クイズを始める</string>
+    <string name="home_start_button">クイック挑戦</string>
 
     <string name="answer_button">回答</string>
     <string name="reset_button">リセット</string>
@@ -25,6 +26,23 @@
     <string name="select_answer_message">答えを選択してください。</string>
     <string name="quiz_finished_message">リセットして再挑戦できます。</string>
     <string name="no_questions_error">問題を読み込めませんでした。</string>
+
+    <string name="quiz_exit_button">終了</string>
+    <string name="quiz_retry_button">もう一度挑戦</string>
+    <string name="quiz_exit_confirm_title">終了しますか？</string>
+    <string name="quiz_exit_confirm_message">進捗は失われます。</string>
+    <string name="quiz_exit_confirm_positive">終了する</string>
+    <string name="quiz_exit_confirm_negative">キャンセル</string>
+    <string name="quiz_result_correct_rate">正答率</string>
+    <string name="quiz_result_correct_rate_format">%1$d%%</string>
+    <string name="quiz_result_exp_gained">獲得EXP</string>
+    <string name="quiz_result_exp_format">+%1$d EXP</string>
+    <string name="quiz_result_max_consecutive">最大連続正解</string>
+    <string name="quiz_result_consecutive_format">%1$d問</string>
+    <string name="quiz_eval_great">すごい！👍</string>
+    <string name="quiz_eval_good">よくできた！</string>
+    <string name="quiz_eval_ok">もう少し！</string>
+    <string name="quiz_eval_keep">次は頑張ろう！</string>
 
     <!-- レベル・称号（10段階经典方案） -->
     <string name="rank_section_title">レベル・称号</string>
@@ -70,7 +88,7 @@
     <!-- 升级弹窗 2️⃣ -->
     <string name="level_up_title">🎉 Lv.UP!</string>
     <string name="level_up_unlock_title">新しい称号を解放</string>
-    <string name="level_up_unlock_border">新しいアバター枠を解放</string>
+    <string name="level_up_unlock_border">新しいアイコンを解放</string>
     <string name="level_up_confirm">確認</string>
 
     <!-- ジャンル別 -->
@@ -91,6 +109,7 @@
     <string name="nav_profile">マイページ</string>
 
     <!-- 个人中心 -->
+    <string name="profile_header_subtitle">プロフィールと設定</string>
     <string name="profile_default_nickname">雑魚</string>
     <string name="profile_nickname_hint">ニックネームを入力</string>
     <string name="profile_save">保存</string>

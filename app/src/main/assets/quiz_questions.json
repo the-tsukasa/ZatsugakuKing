@@ -62,14 +62,14 @@
     },
     {
       "id": 6,
-      "text": "水の化学式は？",
+      "text": "「URL」のUは何の略？",
       "options": [
-        "CO2",
-        "O2",
-        "H2O",
-        "NaCl"
+        "Universal",
+        "Uniform",
+        "Unique",
+        "United"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "genre": "IT・テクノロジー"
     },
     {
@@ -122,14 +122,14 @@
     },
     {
       "id": 11,
-      "text": "3.14で始まる数の名前は？",
+      "text": "スマートフォンのOSで一般的に使われるのは？",
       "options": [
-        "黄金比",
-        "自然対数",
-        "円周率",
-        "平方根2"
+        "iOSとAndroid",
+        "Windows XP",
+        "MS-DOS",
+        "Chromeだけ"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
@@ -146,12 +146,12 @@
     },
     {
       "id": 13,
-      "text": "光の速さに最も近いのは？",
+      "text": "「Wi‑Fi」は主に何のための技術？",
       "options": [
-        "30万km/s",
-        "3万km/s",
-        "3000km/s",
-        "300万km/s"
+        "無線通信",
+        "音楽再生",
+        "画面保護",
+        "省電力モード"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
@@ -338,14 +338,14 @@
     },
     {
       "id": 29,
-      "text": "二酸化炭素の化学式は？",
+      "text": "QRコードを読み取るときに使うのは？",
       "options": [
-        "O2",
-        "CO2",
-        "H2O",
-        "N2"
+        "カメラ",
+        "マイク",
+        "スピーカー",
+        "加速度センサー"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
@@ -506,14 +506,14 @@
     },
     {
       "id": 43,
-      "text": "一番小さい素数は？",
+      "text": "「PDF」は何の略？",
       "options": [
-        "1",
-        "2",
-        "3",
-        "5"
+        "Portable Document Format",
+        "Personal Data File",
+        "Photo Display Format",
+        "Public Document File"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
@@ -602,98 +602,98 @@
     },
     {
       "id": 51,
-      "text": "「HTML」のHは何の略？",
+      "text": "「CPU」はコンピュータのどの部分？",
       "options": [
-        "HyperText",
-        "High",
-        "Home",
-        "Host"
+        "中央処理装置",
+        "記憶装置",
+        "入力装置",
+        "出力装置"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 52,
-      "text": "CPUの正式名称は？",
+      "text": "「RAM」は何の略？",
       "options": [
-        "Central Processing Unit",
-        "Computer Personal Unit",
-        "Core Program Unit",
-        "Central Program Utility"
+        "Random Access Memory",
+        "Read Access Memory",
+        "Rapid Action Module",
+        "Real Analog Memory"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 53,
-      "text": "1バイトは何ビット？",
+      "text": "「ROM」は何の略？",
       "options": [
-        "4",
-        "8",
-        "16",
-        "32"
+        "Read Only Memory",
+        "Random Only Memory",
+        "Read Output Memory",
+        "Rapid Operate Memory"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 54,
-      "text": "「API」のAは何の略？",
+      "text": "「SSD」と「HDD」の主な違いは？",
       "options": [
-        "Application",
-        "Advanced",
-        "Automatic",
-        "Artificial"
+        "記録方式",
+        "画面サイズ",
+        "音質",
+        "色"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 55,
-      "text": "OS（オペレーティングシステム）でないのは？",
+      "text": "「Bluetooth」はどんな通信？",
       "options": [
-        "Windows",
-        "macOS",
-        "Excel",
-        "Linux"
+        "短距離の無線通信",
+        "長距離の衛星通信",
+        "有線通信",
+        "光通信"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 56,
-      "text": "プログラミング言語でないのは？",
+      "text": "「NFC」は主に何に使われる？",
       "options": [
-        "Python",
-        "Java",
-        "HTML",
-        "Kotlin"
+        "かざして通信・決済",
+        "音声認識",
+        "画像編集",
+        "天気予報"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 57,
-      "text": "「Wi-Fi」のFiは何の略？",
+      "text": "「GPS」は何に使う？",
       "options": [
-        "File",
-        "Fidelity",
-        "Frequency",
-        "Fast"
+        "位置情報の取得",
+        "音量調整",
+        "画面明るさ",
+        "バッテリー充電"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 58,
-      "text": "Webブラウザでないのは？",
+      "text": "「IPアドレス」は何を表す？",
       "options": [
-        "Chrome",
-        "Safari",
-        "Word",
-        "Firefox"
+        "ネットワーク上の住所",
+        "ユーザー名",
+        "画像サイズ",
+        "通信速度"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
@@ -1358,348 +1358,204 @@
     },
     {
       "id": 117,
-      "text": "「GUI」は何の略？",
+      "text": "「DNS」の役割は？",
       "options": [
-        "General User Interface",
-        "Graphical User Interface",
-        "Global User Interface",
-        "Generic User Interface"
+        "名前をIPに変換",
+        "ウイルス検出",
+        "画面録画",
+        "音声通話"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 118,
-      "text": "「LAN」は何の略？",
+      "text": "「HTTP」と「HTTPS」の違いは主に？",
       "options": [
-        "Large Area Network",
-        "Local Area Network",
-        "Long Area Network",
-        "Light Area Network"
+        "暗号化の有無",
+        "画面サイズ",
+        "通信距離",
+        "文字コード"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 119,
-      "text": "「WAN」は何の略？",
+      "text": "Webの「Cookie」は何に使う？",
       "options": [
-        "Wide Area Network",
-        "Wireless Area Network",
-        "Web Area Network",
-        "World Area Network"
+        "情報の一時保存",
+        "ウイルス駆除",
+        "画面回転",
+        "通知音"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 120,
-      "text": "「VPN」は何の略？",
+      "text": "「キャッシュ（Cache）」の目的は？",
       "options": [
-        "Virtual Private Network",
-        "Virtual Public Network",
-        "Very Private Network",
-        "Video Phone Network"
+        "表示や読み込みを速くする",
+        "データを削除する",
+        "電池を交換する",
+        "画面を暗くする"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 121,
-      "text": "「DNS」は何の略？",
+      "text": "「2段階認証（2FA）」の目的は？",
       "options": [
-        "Domain Name System",
-        "Digital Network System",
-        "Data Name Service",
-        "Domain Network Service"
+        "セキュリティ強化",
+        "通信速度向上",
+        "画質改善",
+        "省電力"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 122,
-      "text": "「IP」は何の略？",
+      "text": "フィッシング詐欺は何を狙う？",
       "options": [
-        "Internet Protocol",
-        "Internal Protocol",
-        "International Protocol",
-        "Information Protocol"
+        "IDやパスワード",
+        "電気代",
+        "歩数",
+        "画面解像度"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 123,
-      "text": "「HTTP」は何の略？",
+      "text": "「クラウド」とは？",
       "options": [
-        "HyperText Transfer Protocol",
-        "HyperText Transmission Protocol",
-        "HighText Transfer Protocol",
-        "HomeText Transfer Protocol"
+        "ネット経由で使うサービス",
+        "雲の観察",
+        "端末の色",
+        "新しいゲーム機"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 124,
-      "text": "「HTML」は何の略？",
+      "text": "「ブラウザ」は何をするアプリ？",
       "options": [
-        "HyperText Markup Language",
-        "HyperText Makeup Language",
-        "HighText Markup Language",
-        "HomeText Markup Language"
+        "Webページを見る",
+        "写真を撮る",
+        "地図を見る",
+        "音楽を作る"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 125,
-      "text": "「CSS」は何の略？",
+      "text": "「オープンソース」とは？",
       "options": [
-        "Computer Style Sheets",
-        "Cascading Style Sheets",
-        "Creative Style Sheets",
-        "Colorful Style Sheets"
+        "ソースコードが公開",
+        "無料で必ず使える",
+        "必ず商用禁止",
+        "国が管理"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 126,
-      "text": "「SQL」は何の略？",
+      "text": "「AI」は何の略？",
       "options": [
-        "Simple Query Language",
-        "Structured Query Language",
-        "System Query Language",
-        "Standard Query Language"
+        "Artificial Intelligence",
+        "Auto Internet",
+        "Advanced Image",
+        "Audio Input"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 127,
-      "text": "「IDE」は何の略？",
+      "text": "「機械学習」はAIの何？",
       "options": [
-        "Integrated Development Environment",
-        "International Development Environment",
-        "Intelligent Development Environment",
-        "Interactive Development Environment"
+        "学習方法の一種",
+        "電源装置",
+        "画面サイズ",
+        "通信方式"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 128,
-      "text": "「PDF」は何の略？",
+      "text": "「IoT」は何の略？",
       "options": [
-        "Personal Document Format",
-        "Portable Document Format",
-        "Public Document Format",
-        "Printed Document Format"
+        "Internet of Things",
+        "Icon of Tools",
+        "Image on TV",
+        "Input of Text"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 129,
-      "text": "「JPEG」は何の略？",
+      "text": "USB‑Cの特徴として正しいのは？",
       "options": [
-        "Joint Photographic Experts Group",
-        "Joint Picture Experts Group",
-        "Java Photographic Experts Group",
-        "Joint Photo Electronic Group"
+        "上下を気にせず挿せる",
+        "必ず白色",
+        "音声専用",
+        "動画は送れない"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 130,
-      "text": "「PNG」は何の略？",
+      "text": "「フレームレート（FPS）」が高いと？",
       "options": [
-        "Portable Network Graphics",
-        "Personal Network Graphics",
-        "Public Network Graphics",
-        "Printed Network Graphics"
+        "動きが滑らか",
+        "音が大きい",
+        "容量が減る",
+        "画面が暗くなる"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 131,
-      "text": "「GIF」は何の略？",
+      "text": "4Kの代表的な解像度は？",
       "options": [
-        "Graphics Interchange Format",
-        "Graphical Image Format",
-        "General Image Format",
-        "Game Image Format"
+        "3840×2160",
+        "1920×1080",
+        "1280×720",
+        "7680×4320"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 132,
-      "text": "「MP3」は何の略？",
+      "text": "「Unicode」の目的は？",
       "options": [
-        "Music Player 3",
-        "MPEG Audio Layer 3",
-        "Media Player 3",
-        "Music Protocol 3"
+        "世界の文字を統一的に扱う",
+        "画像を圧縮する",
+        "音楽を合成する",
+        "回線を高速化"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "genre": "IT・テクノロジー"
     },
     {
       "id": 133,
-      "text": "「URL」は何の略？",
+      "text": "「ダークモード」の主な狙いは？",
       "options": [
-        "Universal Resource Locator",
-        "Uniform Resource Locator",
-        "Unique Resource Locator",
-        "United Resource Locator"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 134,
-      "text": "「USB」は何の略？",
-      "options": [
-        "Universal Serial Bus",
-        "Uniform Serial Bus",
-        "Unique Serial Bus",
-        "United Serial Bus"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 135,
-      "text": "「HDMI」は何の略？",
-      "options": [
-        "High Definition Media Interface",
-        "High Definition Multimedia Interface",
-        "Home Digital Media Interface",
-        "High Digital Media Interface"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 136,
-      "text": "「LCD」は何の略？",
-      "options": [
-        "Liquid Color Display",
-        "Liquid Crystal Display",
-        "Light Crystal Display",
-        "Liquid Clear Display"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 137,
-      "text": "「LED」は何の略？",
-      "options": [
-        "Light Emitting Diode",
-        "Light Electronic Diode",
-        "Liquid Emitting Diode",
-        "Light Energy Diode"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 138,
-      "text": "「OLED」は何の略？",
-      "options": [
-        "Organic Light Emitting Diode",
-        "Optical Light Emitting Diode",
-        "Organic Liquid Emitting Diode",
-        "Optical Liquid Emitting Diode"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 139,
-      "text": "「RAM」は何の略？",
-      "options": [
-        "Random Access Memory",
-        "Read Access Memory",
-        "Random Application Memory",
-        "Read Application Memory"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 140,
-      "text": "「ROM」は何の略？",
-      "options": [
-        "Random Only Memory",
-        "Read Only Memory",
-        "Random Output Memory",
-        "Read Output Memory"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 141,
-      "text": "「GPU」は何の略？",
-      "options": [
-        "General Processing Unit",
-        "Graphics Processing Unit",
-        "Global Processing Unit",
-        "Game Processing Unit"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 142,
-      "text": "「FPS」は何の略？",
-      "options": [
-        "Frames Per Second",
-        "Files Per Second",
-        "Frequency Per Second",
-        "Functions Per Second"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 143,
-      "text": "「ASCII」は何の略？",
-      "options": [
-        "American Standard Code for Information Interchange",
-        "American Standard Computer Information Interchange",
-        "Advanced Standard Code for Information Interchange",
-        "American Security Code for Information Interchange"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 144,
-      "text": "「BIOS」は何の略？",
-      "options": [
-        "Basic Input Output System",
-        "Basic Internal Output System",
-        "Basic Input Online System",
-        "Basic Internet Output System"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 145,
-      "text": "「CAD」は何の略？",
-      "options": [
-        "Computer Aided Design",
-        "Computer Assisted Design",
-        "Creative Aided Design",
-        "Computer Advanced Design"
+        "目の負担軽減や省電力",
+        "通信速度向上",
+        "音質改善",
+        "容量削減"
       ],
       "correctIndex": 0,
       "genre": "IT・テクノロジー"
@@ -2747,102 +2603,6 @@
       ],
       "correctIndex": 1,
       "genre": "食べ物"
-    },
-    {
-      "id": 281,
-      "text": "「Mbps」は何の単位？",
-      "options": [
-        "容量",
-        "速度",
-        "周波数",
-        "電圧"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 282,
-      "text": "「GHz」は何の単位？",
-      "options": [
-        "速度",
-        "周波数",
-        "容量",
-        "電圧"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 283,
-      "text": "「TB」は何の単位？",
-      "options": [
-        "速度",
-        "容量",
-        "周波数",
-        "電圧"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 284,
-      "text": "「VGA」は何の略？",
-      "options": [
-        "Video Graphics Array",
-        "Virtual Graphics Array",
-        "Visual Graphics Adapter",
-        "Video Game Adapter"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 285,
-      "text": "「DVI」は何の略？",
-      "options": [
-        "Digital Video Interface",
-        "Digital Visual Interface",
-        "Display Video Interface",
-        "Direct Video Input"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 286,
-      "text": "「HDCP」は何の略？",
-      "options": [
-        "High Definition Content Protection",
-        "High-bandwidth Digital Content Protection",
-        "Home Digital Content Protection",
-        "Hardware Digital Content Protection"
-      ],
-      "correctIndex": 1,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 287,
-      "text": "「SSID」は何の略？",
-      "options": [
-        "Service Set Identifier",
-        "System Set Identifier",
-        "Security Set Identifier",
-        "Signal Set Identifier"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
-    },
-    {
-      "id": 288,
-      "text": "「MACアドレス」は何に使う？",
-      "options": [
-        "ネットワーク機器の識別",
-        "メール送信",
-        "ファイル保存",
-        "画面表示"
-      ],
-      "correctIndex": 0,
-      "genre": "IT・テクノロジー"
     },
     {
       "id": 289,

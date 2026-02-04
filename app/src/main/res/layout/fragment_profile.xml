@@ -12,20 +12,44 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- 顶部渐变头部 -->
+        <!-- 顶部头部：标题 + 副标题 -->
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="100dp"
-            android:background="@drawable/bg_profile_header" />
+            android:background="@drawable/bg_profile_header">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nav_profile"
+                    android:textAppearance="@style/AppTextTitle"
+                    android:textColor="?attr/colorOnSurface" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/profile_header_subtitle"
+                    android:textAppearance="@style/AppTextBody"
+                    android:textColor="?attr/colorOnSurfaceVariant" />
+            </LinearLayout>
+        </FrameLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingHorizontal="20dp"
-            android:paddingTop="24dp"
-            android:paddingBottom="32dp">
+            android:paddingTop="16dp"
+            android:paddingBottom="28dp">
 
             <!-- 头像 + 昵称 + 称号：顶部身份区 -->
             <LinearLayout
@@ -42,12 +66,12 @@
 
                     <ImageView
                         android:id="@+id/profile_avatar"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:background="@drawable/bg_avatar_circle"
-                        android:contentDescription="@string/profile_avatar"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/avatar_default" />
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:background="@drawable/bg_avatar_circle"
+                    android:contentDescription="@string/profile_avatar"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/avatar_student_default" />
                 </FrameLayout>
 
                 <LinearLayout
@@ -69,7 +93,7 @@
                         android:paddingVertical="10dp"
                         android:textColor="?attr/colorOnSurface"
                         android:textColorHint="?attr/colorOnSurfaceVariant"
-                        android:textSize="16sp"
+                        android:textSize="15sp"
                         tools:text="ユーザー" />
 
                     <TextView
@@ -80,7 +104,7 @@
                         android:background="@drawable/bg_rank_badge"
                         android:paddingHorizontal="12dp"
                         android:paddingVertical="4dp"
-                        android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+                        android:textAppearance="@style/AppBadge"
                         android:textColor="?attr/colorOnSurfaceVariant"
                         tools:text="初心者" />
                 </LinearLayout>
@@ -91,10 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                app:cardBackgroundColor="?attr/colorSurfaceContainerHighest"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="2dp"
-                app:strokeWidth="0dp">
+                style="@style/AppCard">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -106,16 +127,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/profile_section_personal"
-                        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+                        android:textAppearance="@style/AppTextSection"
                         android:textColor="?attr/colorOnSurfaceVariant"
-                        android:textStyle="bold"
                         android:layout_marginBottom="12dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/profile_avatar_pick_hint"
-                        android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+                        android:textAppearance="@style/AppTextCaption"
                         android:textColor="?attr/colorOnSurfaceVariant"
                         android:layout_marginBottom="8dp" />
 
@@ -129,66 +149,75 @@
 
                         <ImageView
                             android:id="@+id/profile_avatar_opt_0"
-                            android:layout_width="48dp"
-                            android:layout_height="48dp"
-                            android:layout_marginEnd="12dp"
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_avatar_circle"
                             android:contentDescription="@string/profile_avatar"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/avatar_default"
+                            android:src="@drawable/avatar_student_default"
                             android:tag="0" />
 
                         <ImageView
                             android:id="@+id/profile_avatar_opt_1"
-                            android:layout_width="48dp"
-                            android:layout_height="48dp"
-                            android:layout_marginEnd="12dp"
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_avatar_circle"
                             android:contentDescription="@string/profile_avatar"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/avatar_preset_2"
+                            android:src="@drawable/avatar_student_animal_1"
                             android:tag="1" />
 
                         <ImageView
                             android:id="@+id/profile_avatar_opt_2"
-                            android:layout_width="48dp"
-                            android:layout_height="48dp"
-                            android:layout_marginEnd="12dp"
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_avatar_circle"
                             android:contentDescription="@string/profile_avatar"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/avatar_lv5"
+                            android:src="@drawable/avatar_reward_lv5"
                             android:tag="2" />
 
                         <ImageView
                             android:id="@+id/profile_avatar_opt_3"
-                            android:layout_width="48dp"
-                            android:layout_height="48dp"
-                            android:layout_marginEnd="12dp"
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_avatar_circle"
                             android:contentDescription="@string/profile_avatar"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/avatar_lv06"
+                            android:src="@drawable/avatar_reward_lv6"
                             android:tag="3" />
 
                         <ImageView
                             android:id="@+id/profile_avatar_opt_4"
-                            android:layout_width="48dp"
-                            android:layout_height="48dp"
-                            android:layout_marginEnd="12dp"
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:layout_marginEnd="8dp"
                             android:background="@drawable/bg_avatar_circle"
                             android:contentDescription="@string/profile_avatar"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/avatar_king"
+                            android:src="@drawable/avatar_student_animal_2"
                             android:tag="4" />
+
+                        <ImageView
+                            android:id="@+id/profile_avatar_opt_5"
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:background="@drawable/bg_avatar_circle"
+                            android:contentDescription="@string/profile_avatar"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/avatar_reward_king"
+                            android:tag="5" />
                     </LinearLayout>
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/profile_save"
-                        style="@style/Widget.Material3.Button.TonalButton"
+                        style="@style/AppButtonSecondary"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:minHeight="48dp"
                         android:text="@string/profile_save_nickname"
                         app:cornerRadius="12dp" />
                 </LinearLayout>
@@ -200,10 +229,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                app:cardBackgroundColor="?attr/colorSurfaceContainerHighest"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="2dp"
-                app:strokeWidth="0dp">
+                style="@style/AppCard">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -215,9 +241,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/profile_section_achievements"
-                        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+                        android:textAppearance="@style/AppTextSection"
                         android:textColor="?attr/colorOnSurfaceVariant"
-                        android:textStyle="bold"
                         android:layout_marginBottom="12dp" />
 
                     <!-- EXP 区块：经验条 + 升级提示 -->
@@ -238,14 +263,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/profile_stat_exp"
-                                android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                                android:textAppearance="@style/AppTextCaption"
                                 android:textColor="?attr/colorOnSurfaceVariant" />
                             <TextView
                                 android:id="@+id/profile_stat_exp_value"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="8dp"
-                                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                                android:textAppearance="@style/AppTextSection"
                                 android:textColor="?attr/colorOnSurface"
                                 tools:text="120" />
                         </LinearLayout>
@@ -260,7 +285,7 @@
                             android:id="@+id/profile_exp_hint"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+                            android:textAppearance="@style/AppTextCaption"
                             android:textColor="?attr/colorOnSurfaceVariant"
                             tools:text="あと 8 問で Lv.3！" />
                     </LinearLayout>
@@ -284,14 +309,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/profile_stat_total"
-                                android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+                                android:textAppearance="@style/AppTextCaption"
                                 android:textColor="?attr/colorOnSurfaceVariant" />
                             <TextView
                                 android:id="@+id/profile_stat_total_value"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                                android:textAppearance="@style/AppTextSection"
                                 android:textColor="?attr/colorOnSurface"
                                 tools:text="24" />
                         </LinearLayout>
@@ -313,14 +338,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/profile_stat_consecutive"
-                                android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+                                android:textAppearance="@style/AppTextCaption"
                                 android:textColor="?attr/colorOnSurfaceVariant" />
                             <TextView
                                 android:id="@+id/profile_stat_consecutive_value"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                                android:textAppearance="@style/AppTextSection"
                                 android:textColor="?attr/colorOnSurface"
                                 tools:text="3" />
                         </LinearLayout>
@@ -332,10 +357,7 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardBackgroundColor="?attr/colorSurfaceContainerHighest"
-                app:cardCornerRadius="16dp"
-                app:cardElevation="2dp"
-                app:strokeWidth="0dp">
+                style="@style/AppCard">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -347,9 +369,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/profile_section_settings"
-                        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+                        android:textAppearance="@style/AppTextSection"
                         android:textColor="?attr/colorOnSurfaceVariant"
-                        android:textStyle="bold"
                         android:layout_marginBottom="12dp" />
 
                     <FrameLayout
@@ -373,7 +394,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="@string/language_label"
-                                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                                android:textAppearance="@style/AppTextBody"
                                 android:textColor="?attr/colorOnSurface" />
 
                             <TextView
@@ -381,7 +402,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="8dp"
-                                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                                android:textAppearance="@style/AppTextBody"
                                 android:textColor="?attr/colorOnSurfaceVariant"
                                 tools:text="日本語" />
 

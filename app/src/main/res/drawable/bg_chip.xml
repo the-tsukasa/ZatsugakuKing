@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/manga_chip" />
+    <solid android:color="@color/surfaceContainerHigh" />
     <stroke
-        android:width="2dp"
-        android:color="@color/manga_border" />
-    <corners android:radius="14dp" />
+        android:width="1dp"
+        android:color="@color/outlineVariant" />
+    <corners android:radius="8dp" />
     <padding
         android:bottom="4dp"
         android:left="10dp"

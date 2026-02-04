@@ -29,13 +29,13 @@ object RankRepository {
         R.string.rank_virtual_user_10
     )
 
-    /** 虚拟用户按等级使用的头像：Lv.1-4 默认，Lv.5 avatar_lv5，Lv.6-9 avatar_lv06，Lv.10 王冠 */
+    /** 虚拟用户按等级使用的头像：Lv.1-4 默认，Lv.5 avatar_reward_lv5，Lv.6-9 avatar_reward_lv6，Lv.10 王冠 */
     private fun avatarForRank(rank: RankManager.Rank): Int = when (rank) {
-        RankManager.Rank.LV10 -> R.drawable.avatar_king
+        RankManager.Rank.LV10 -> R.drawable.avatar_reward_king
         RankManager.Rank.LV9, RankManager.Rank.LV8, RankManager.Rank.LV7, RankManager.Rank.LV6 ->
-            R.drawable.avatar_lv06
-        RankManager.Rank.LV5 -> R.drawable.avatar_lv5
-        else -> R.drawable.avatar_default
+            R.drawable.avatar_reward_lv6
+        RankManager.Rank.LV5 -> R.drawable.avatar_reward_lv5
+        else -> R.drawable.avatar_student_default
     }
 
     /**
@@ -52,7 +52,7 @@ object RankRepository {
         val rankTitle = RankManager.getRankTitleOnly(context)
         val score = RankManager.getTotalCorrect(context)
         val avatarResId = ProfileManager.getAvatarResId(context)
-        val currentUserResId = if (avatarResId == 0) R.drawable.avatar_default else avatarResId
+        val currentUserResId = if (avatarResId == 0) R.drawable.avatar_student_default else avatarResId
 
         val currentUser = RankItem(
             rank = 0,

@@ -57,26 +57,18 @@ class ProfileFragment : Fragment() {
                 viewModel.setAvatarResId(resId)
                 Snackbar.make(binding.root, R.string.profile_avatar_updated, Snackbar.LENGTH_SHORT).show()
                 refreshProfile()
+            } else {
+                val nextUnlock = AvatarConfig.presets
+                    .map { it.unlockLevel }
+                    .filter { it > level }
+                    .minOrNull()
+                if (nextUnlock != null) {
+                    showAnchoredTooltip(
+                        binding.profileAvatar,
+                        getString(R.string.profile_avatar_opt_unlock_level, nextUnlock)
+                    )
+                }
             }
-        }
-
-        fun showAnchoredTooltip(anchor: View, message: String) {
-            val content = LayoutInflater.from(ctx).inflate(R.layout.tooltip_anchor, null)
-            (content.findViewById<TextView>(R.id.tooltip_text)).text = message
-            content.measure(
-                View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
-                View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED)
-            )
-            val popup = PopupWindow(content, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, true)
-            popup.isOutsideTouchable = true
-            popup.isFocusable = true
-            popup.setBackgroundDrawable(null)
-            popup.elevation = 12f
-            val anchorWidth = anchor.width.coerceAtLeast(1)
-            val xOff = ((anchorWidth - content.measuredWidth) / 2).coerceAtLeast(0)
-            val yOff = (12 * resources.displayMetrics.density).toInt()
-            popup.showAsDropDown(anchor, xOff, yOff, Gravity.START or Gravity.TOP)
-            anchor.postDelayed({ if (popup.isShowing) popup.dismiss() }, 2000L)
         }
 
         val avatarOptViews = listOf(
@@ -84,7 +76,8 @@ class ProfileFragment : Fragment() {
             binding.profileAvatarOpt1,
             binding.profileAvatarOpt2,
             binding.profileAvatarOpt3,
-            binding.profileAvatarOpt4
+            binding.profileAvatarOpt4,
+            binding.profileAvatarOpt5
         )
         avatarOptViews.forEachIndexed { idx, img ->
             img.setOnClickListener {
@@ -92,7 +85,10 @@ class ProfileFragment : Fragment() {
                 val level = state.currentLevel
                 val preset = AvatarConfig.presets[idx]
                 if (level < preset.unlockLevel) {
-                    showAnchoredTooltip(img, getString(R.string.profile_avatar_king_locked))
+                    showAnchoredTooltip(
+                        img,
+                        getString(R.string.profile_avatar_opt_unlock_level, preset.unlockLevel)
+                    )
                     return@setOnClickListener
                 }
                 viewModel.setAvatarResId(preset.resId)
@@ -165,7 +161,8 @@ class ProfileFragment : Fragment() {
             binding.profileAvatarOpt1,
             binding.profileAvatarOpt2,
             binding.profileAvatarOpt3,
-            binding.profileAvatarOpt4
+            binding.profileAvatarOpt4,
+            binding.profileAvatarOpt5
         )
         avatarOptViews.forEachIndexed { idx, img ->
             val preset = AvatarConfig.presets[idx]
@@ -202,5 +199,24 @@ class ProfileFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    private fun showAnchoredTooltip(anchor: View, message: String) {
+        val content = LayoutInflater.from(requireContext()).inflate(R.layout.tooltip_anchor, null)
+        (content.findViewById<TextView>(R.id.tooltip_text)).text = message
+        content.measure(
+            View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+            View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED)
+        )
+        val popup = PopupWindow(content, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, true)
+        popup.isOutsideTouchable = true
+        popup.isFocusable = true
+        popup.setBackgroundDrawable(null)
+        popup.elevation = 12f
+        val anchorWidth = anchor.width.coerceAtLeast(1)
+        val xOff = ((anchorWidth - content.measuredWidth) / 2).coerceAtLeast(0)
+        val yOff = (12 * resources.displayMetrics.density).toInt()
+        popup.showAsDropDown(anchor, xOff, yOff, Gravity.START or Gravity.TOP)
+        anchor.postDelayed({ if (popup.isShowing) popup.dismiss() }, 2000L)
     }
 }

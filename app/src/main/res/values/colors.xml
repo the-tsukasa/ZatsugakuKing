@@ -3,23 +3,23 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Material 3 语义色（亮色主题） -->
-    <color name="primary">#FF1976D2</color>
+    <!-- Material 3 语义色（亮色主题，简洁清爽） -->
+    <color name="primary">#FF5B8DEF</color>
     <color name="onPrimary">#FFFFFFFF</color>
-    <color name="primaryContainer">#FFDCE7FF</color>
-    <color name="onPrimaryContainer">#FF001B3F</color>
-    <color name="surface">#FFF8F9FA</color>
-    <color name="onSurface">#FF1C1B1F</color>
-    <color name="onSurfaceVariant">#FF49454F</color>
-    <color name="surfaceContainer">#FFEEEEF0</color>
-    <color name="surfaceContainerHigh">#FFE8E8EC</color>
-    <color name="surfaceContainerHighest">#FFE3E2E6</color>
-    <color name="outline">#FF79747E</color>
-    <color name="outlineVariant">#FFCAC4D0</color>
+    <color name="primaryContainer">#FFDDE9FF</color>
+    <color name="onPrimaryContainer">#FF12325A</color>
+    <color name="surface">#FFF7F8FA</color>
+    <color name="onSurface">#FF1D232B</color>
+    <color name="onSurfaceVariant">#FF5B6672</color>
+    <color name="surfaceContainer">#FFF1F3F5</color>
+    <color name="surfaceContainerHigh">#FFE9EDF1</color>
+    <color name="surfaceContainerHighest">#FFE3E8EE</color>
+    <color name="outline">#FFC7CED6</color>
+    <color name="outlineVariant">#FFD7DEE6</color>
 
     <!-- 功能色 -->
-    <color name="correct">#FF4CAF50</color>
-    <color name="incorrect">#FFE57373</color>
+    <color name="correct">#FF6BBF7A</color>
+    <color name="incorrect">#FFEE8A8A</color>
 
     <!-- 兼容旧引用（别名） -->
     <color name="manga_pink">@color/surfaceContainer</color>
@@ -36,15 +36,15 @@
     <color name="manga_ink_secondary">@color/onSurfaceVariant</color>
 
     <!-- 排行榜奖牌色 -->
-    <color name="rank_medal_gold">#FFD32F</color>
-    <color name="rank_medal_gold_text">#5D4200</color>
-    <color name="rank_medal_silver">#B0BEC5</color>
-    <color name="rank_medal_silver_text">#37474F</color>
-    <color name="rank_medal_bronze">#FFAB91</color>
-    <color name="rank_medal_bronze_text">#BF360C</color>
-    <color name="rank_item_me_bg">#E3F2FD</color>
+    <color name="rank_medal_gold">#FFE3B3</color>
+    <color name="rank_medal_gold_text">#6A4A00</color>
+    <color name="rank_medal_silver">#D6DEE5</color>
+    <color name="rank_medal_silver_text">#3E4A57</color>
+    <color name="rank_medal_bronze">#F4C2A6</color>
+    <color name="rank_medal_bronze_text">#8A4A2B</color>
+    <color name="rank_item_me_bg">#E6F0FF</color>
 
     <!-- 经验条：蓝色底槽 + 黄色 EXP 填充 -->
-    <color name="exp_track">#CC1E3A5C</color>
-    <color name="exp_fill">#FFD54F</color>
+    <color name="exp_track">#CCD6E3</color>
+    <color name="exp_fill">#FF8CB4FF</color>
 </resources>

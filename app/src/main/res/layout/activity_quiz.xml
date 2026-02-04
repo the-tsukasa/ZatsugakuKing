@@ -6,6 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?attr/colorSurface"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
     tools:context=".QuizActivity">
 
     <!-- 用户头像 + 等级・称号 -->
@@ -25,7 +28,7 @@
             android:background="@drawable/bg_avatar_circle"
             android:contentDescription="@string/profile_avatar"
             android:scaleType="centerCrop"
-            android:src="@drawable/avatar_default" />
+            android:src="@drawable/avatar_student_default" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -39,9 +42,8 @@
                 android:id="@+id/quiz_user_level"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+                android:textAppearance="@style/AppTextSection"
                 android:textColor="?attr/colorPrimary"
-                android:textStyle="bold"
                 tools:text="Lv.4 雑学好き" />
 
             <LinearLayout
@@ -69,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:minWidth="72dp"
                     android:gravity="end"
-                    android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+                    android:textAppearance="@style/AppTextCaption"
                     android:textColor="@color/manga_ink_secondary"
                     tools:text="320 / 500 EXP" />
             </LinearLayout>
@@ -83,9 +85,8 @@
                 android:background="@drawable/bg_chip"
                 android:paddingHorizontal="10dp"
                 android:paddingVertical="4dp"
-                android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+                android:textAppearance="@style/AppBadge"
                 android:textColor="?attr/colorPrimary"
-                android:textStyle="bold"
                 android:visibility="gone"
                 tools:text="あと 3 問で Lv.5！"
                 tools:visibility="visible" />
@@ -105,7 +106,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+            android:textAppearance="@style/AppTextCaption"
             android:textColor="@color/manga_ink_secondary"
             tools:text="第1問 / 5" />
 
@@ -113,9 +114,99 @@
             android:id="@+id/statusText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+            android:textAppearance="@style/AppTextCaption"
             android:textColor="@color/manga_ink_secondary"
             tools:text="正答数: 0" />
+    </LinearLayout>
+
+    <!-- 結果エリア（クイズ終了時のみ表示） -->
+    <LinearLayout
+        android:id="@+id/quiz_result_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headerRow">
+
+        <TextView
+            android:id="@+id/quiz_result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_complete_text"
+            android:textAppearance="@style/AppTextTitle"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quiz_result_correct_rate"
+                android:textAppearance="@style/AppTextCaption"
+                android:textColor="?attr/colorOnSurfaceVariant" />
+            <TextView
+                android:id="@+id/quiz_result_correct_rate_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textAppearance="@style/AppTextSection"
+                android:textColor="?attr/colorOnSurface"
+                tools:text="80%" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quiz_result_exp_gained"
+                android:textAppearance="@style/AppTextCaption"
+                android:textColor="?attr/colorOnSurfaceVariant" />
+            <TextView
+                android:id="@+id/quiz_result_exp_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textAppearance="@style/AppTextSection"
+                android:textColor="?attr/colorOnSurface"
+                tools:text="+50 EXP" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quiz_result_max_consecutive"
+                android:textAppearance="@style/AppTextCaption"
+                android:textColor="?attr/colorOnSurfaceVariant" />
+            <TextView
+                android:id="@+id/quiz_result_consecutive_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textAppearance="@style/AppTextSection"
+                android:textColor="?attr/colorOnSurface"
+                tools:text="3問" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/quiz_result_eval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/AppTextSection"
+            android:textColor="?attr/colorPrimary"
+            tools:text="すごい！👍" />
     </LinearLayout>
 
     <TextView
@@ -123,7 +214,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+        android:textAppearance="@style/AppTextSection"
         android:textColor="@color/manga_ink"
         android:lineSpacingMultiplier="1.25"
         app:layout_constraintEnd_toEndOf="parent"
@@ -203,38 +294,93 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/answerButton"
-        style="@style/Widget.Material3.Button"
+        style="@style/AppButtonPrimary"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
         android:text="@string/answer_button"
-        android:textSize="15sp"
         app:cornerRadius="12dp"
         app:layout_constraintTop_toBottomOf="@id/answerGroup" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/resetButton"
-        style="@style/Widget.Material3.Button.TonalButton"
+        android:id="@+id/exitButton"
+        style="@style/AppButtonSecondary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:minHeight="48dp"
-        android:text="@string/reset_button"
-        android:textSize="14sp"
+        android:text="@string/quiz_exit_button"
         app:cornerRadius="12dp"
         app:layout_constraintTop_toBottomOf="@id/answerButton" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/retryButton"
+        style="@style/AppButtonSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/quiz_retry_button"
+        android:visibility="gone"
+        app:cornerRadius="12dp"
+        app:layout_constraintTop_toBottomOf="@id/quiz_result_container" />
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/topButton"
-        style="@style/Widget.Material3.Button.TonalButton"
+        style="@style/AppButtonSecondary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:minHeight="48dp"
         android:text="@string/top_button"
-        android:textSize="14sp"
         android:visibility="gone"
         app:cornerRadius="12dp"
-        app:layout_constraintTop_toBottomOf="@id/resetButton" />
+        app:layout_constraintTop_toBottomOf="@id/retryButton" />
+
+    <!-- 回答判定：中央オーバーレイ（Toast の代わり） -->
+    <FrameLayout
+        android:id="@+id/quiz_feedback_overlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:elevation="12dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/quiz_feedback_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/bg_feedback_correct"
+            tools:background="@drawable/bg_feedback_correct">
+
+            <TextView
+                android:id="@+id/quiz_feedback_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:text="正解！" />
+
+            <TextView
+                android:id="@+id/quiz_feedback_exp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:visibility="gone"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                tools:text="+10 EXP"
+                tools:visibility="visible" />
+        </LinearLayout>
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

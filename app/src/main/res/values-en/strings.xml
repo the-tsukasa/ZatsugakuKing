@@ -3,12 +3,13 @@
     <string name="app_name">Trivia King</string>
     <string name="app_title">Trivia King</string>
     <string name="app_subtitle">Become king with trivia</string>
-    <string name="main_instruction">5 random questions each time. Tap \"Answer\" after choosing. Correct or incorrect is shown right away. Reset to try again.</string>
+    <string name="main_instruction">5 random questions each time. Tap \"Answer\" after choosing. Correct or incorrect is shown right away. After finishing, you can try again or go back to home.</string>
     <string name="main_feature_title">App features</string>
     <string name="main_feature_1">・5 random questions each time</string>
     <string name="main_feature_2">・See correct / incorrect on the spot</string>
-    <string name="main_feature_3">・Reset to challenge again</string>
+    <string name="main_feature_3">・Try again or go home after finishing</string>
     <string name="start_quiz">Start quiz</string>
+    <string name="home_start_button">Quick challenge</string>
 
     <string name="answer_button">Answer</string>
     <string name="reset_button">Reset</string>
@@ -26,6 +27,23 @@
     <string name="select_answer_message">Please select an answer.</string>
     <string name="quiz_finished_message">You can reset and try again.</string>
     <string name="no_questions_error">Could not load questions.</string>
+
+    <string name="quiz_exit_button">Exit</string>
+    <string name="quiz_retry_button">Try again</string>
+    <string name="quiz_exit_confirm_title">Exit quiz?</string>
+    <string name="quiz_exit_confirm_message">Your progress will be lost.</string>
+    <string name="quiz_exit_confirm_positive">Exit</string>
+    <string name="quiz_exit_confirm_negative">Cancel</string>
+    <string name="quiz_result_correct_rate">Correct rate</string>
+    <string name="quiz_result_correct_rate_format">%1$d%%</string>
+    <string name="quiz_result_exp_gained">EXP gained</string>
+    <string name="quiz_result_exp_format">+%1$d EXP</string>
+    <string name="quiz_result_max_consecutive">Max consecutive</string>
+    <string name="quiz_result_consecutive_format">%1$d</string>
+    <string name="quiz_eval_great">Amazing! 👍</string>
+    <string name="quiz_eval_good">Well done!</string>
+    <string name="quiz_eval_ok">Not bad!</string>
+    <string name="quiz_eval_keep">Keep going!</string>
 
     <string name="rank_section_title">Level · Title</string>
     <string name="rank_current">Current title</string>
@@ -105,6 +123,7 @@
     <string name="nav_rank">Ranking</string>
     <string name="nav_profile">Profile</string>
 
+    <string name="profile_header_subtitle">Profile &amp; settings</string>
     <string name="profile_default_nickname">User</string>
     <string name="profile_nickname_hint">Enter nickname</string>
     <string name="profile_save">Save</string>

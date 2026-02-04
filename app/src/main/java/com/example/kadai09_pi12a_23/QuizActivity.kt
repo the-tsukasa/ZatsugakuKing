@@ -41,8 +41,18 @@ class QuizActivity : AppCompatActivity() {
     private lateinit var radioGroup: RadioGroup
     private lateinit var optionButtons: List<RadioButton>
     private lateinit var answerButton: Button
-    private lateinit var resetButton: Button
+    private lateinit var exitButton: Button
+    private lateinit var retryButton: Button
     private lateinit var topButton: Button
+    private lateinit var quizResultContainer: View
+    private lateinit var quizResultCorrectRateValue: TextView
+    private lateinit var quizResultExpValue: TextView
+    private lateinit var quizResultConsecutiveValue: TextView
+    private lateinit var quizResultEval: TextView
+    private lateinit var quizFeedbackOverlay: View
+    private lateinit var quizFeedbackCard: View
+    private lateinit var quizFeedbackText: TextView
+    private lateinit var quizFeedbackExp: TextView
 
     private var allQuestions: List<QuizQuestion> = emptyList()
     private var questions: List<QuizQuestion> = emptyList()
@@ -52,6 +62,10 @@ class QuizActivity : AppCompatActivity() {
     private var isFinished = false
     private var totalQuestions = 0
     private var showingFeedback = false
+    private var expAtQuizStart = 0
+    private var currentConsecutiveThisRun = 0
+    private var maxConsecutiveThisRun = 0
+    private var lastExpGain = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -89,8 +103,18 @@ class QuizActivity : AppCompatActivity() {
         }
         updateUserBar()
         answerButton = findViewById(R.id.answerButton)
-        resetButton = findViewById(R.id.resetButton)
+        exitButton = findViewById(R.id.exitButton)
+        retryButton = findViewById(R.id.retryButton)
         topButton = findViewById(R.id.topButton)
+        quizResultContainer = findViewById(R.id.quiz_result_container)
+        quizResultCorrectRateValue = findViewById(R.id.quiz_result_correct_rate_value)
+        quizResultExpValue = findViewById(R.id.quiz_result_exp_value)
+        quizResultConsecutiveValue = findViewById(R.id.quiz_result_consecutive_value)
+        quizResultEval = findViewById(R.id.quiz_result_eval)
+        quizFeedbackOverlay = findViewById(R.id.quiz_feedback_overlay)
+        quizFeedbackCard = findViewById(R.id.quiz_feedback_card)
+        quizFeedbackText = findViewById(R.id.quiz_feedback_text)
+        quizFeedbackExp = findViewById(R.id.quiz_feedback_exp)
 
         optionButtons = listOf(
             findViewById(R.id.option1),
@@ -139,6 +163,15 @@ class QuizActivity : AppCompatActivity() {
                 correctCount += 1
             }
 
+            if (isCorrect) {
+                currentConsecutiveThisRun += 1
+                if (currentConsecutiveThisRun > maxConsecutiveThisRun) {
+                    maxConsecutiveThisRun = currentConsecutiveThisRun
+                }
+            } else {
+                currentConsecutiveThisRun = 0
+            }
+
             val rankBefore = RankManager.getCurrentRank(this)
             if (isCorrect) {
                 RankManager.addCorrect(this)
@@ -149,16 +182,16 @@ class QuizActivity : AppCompatActivity() {
                     consecutive >= 5 -> expGain += 20
                     consecutive >= 3 -> expGain += 10
                 }
+                lastExpGain = expGain
                 RankManager.addExp(this, expGain)
                 val rankAfter = RankManager.getCurrentRank(this)
-                Toast.makeText(this, getString(R.string.result_correct), Toast.LENGTH_SHORT).show()
                 if (rankAfter != rankBefore) {
                     updateUserBar()
                     showLevelUpDialog(rankAfter)
                 }
             } else {
                 RankManager.addIncorrect(this)
-                Toast.makeText(this, getString(R.string.result_incorrect), Toast.LENGTH_SHORT).show()
+                lastExpGain = 0
             }
 
             val isLast = currentIndex == questions.lastIndex
@@ -170,12 +203,8 @@ class QuizActivity : AppCompatActivity() {
                     else -> 0
                 }
                 if (allCorrectBonus > 0) {
+                    lastExpGain += allCorrectBonus
                     RankManager.addExp(this, allCorrectBonus)
-                    Toast.makeText(
-                        this,
-                        getString(R.string.toast_all_correct_bonus, allCorrectBonus),
-                        Toast.LENGTH_SHORT
-                    ).show()
                 }
             }
 
@@ -186,8 +215,10 @@ class QuizActivity : AppCompatActivity() {
             answerButton.isEnabled = false
             radioGroup.isEnabled = false
             applyResultBackgrounds(currentQuestion.correctIndex, selectedIndex, isCorrect)
+            showFeedbackOverlay(isCorrect)
             if (!isLast) updateUserBar()
             radioGroup.postDelayed({
+                quizFeedbackOverlay.visibility = View.GONE
                 showingFeedback = false
                 if (isLast) {
                     isFinished = true
@@ -202,7 +233,11 @@ class QuizActivity : AppCompatActivity() {
             }, 1200L)
         }
 
-        resetButton.setOnClickListener {
+        exitButton.setOnClickListener {
+            showExitConfirmDialog()
+        }
+
+        retryButton.setOnClickListener {
             resetQuiz()
         }
 
@@ -216,6 +251,25 @@ class QuizActivity : AppCompatActivity() {
         if (::quizUserAvatar.isInitialized) updateUserBar()
     }
 
+    /** 終了確認：アプリ共通のカード風ダイアログ */
+    private fun showExitConfirmDialog() {
+        val dialog = Dialog(this).apply {
+            requestWindowFeature(Window.FEATURE_NO_TITLE)
+            setContentView(R.layout.dialog_quiz_exit_confirm)
+            setCancelable(true)
+        }
+        dialog.findViewById<Button>(R.id.dialog_exit_cancel).setOnClickListener { dialog.dismiss() }
+        dialog.findViewById<Button>(R.id.dialog_exit_confirm).setOnClickListener {
+            dialog.dismiss()
+            finish()
+        }
+        // ダイアログ幅を確保し、ボタン文言が切れないようにする
+        val minWidthPx = (360 * resources.displayMetrics.density).toInt()
+        val maxWidthPx = resources.displayMetrics.widthPixels - (48 * 2)
+        dialog.window?.setLayout(minWidthPx.coerceIn(0, maxWidthPx), android.view.ViewGroup.LayoutParams.WRAP_CONTENT)
+        dialog.show()
+    }
+
     /** 2️⃣ 升级弹窗：🎉 Lv.UP! / 解锁新称号 / 解锁新头像边框 */
     private fun showLevelUpDialog(newRank: RankManager.Rank) {
         val levelUpDialog = Dialog(this).apply {
@@ -223,6 +277,9 @@ class QuizActivity : AppCompatActivity() {
             setContentView(R.layout.dialog_level_up)
             setCancelable(true)
         }
+        val unlockAvatarView = levelUpDialog.findViewById<TextView>(R.id.dialog_level_up_unlock_border)
+        val unlocksAvatar = newRank.level == 5 || newRank.level == 6 || newRank.level == 10
+        unlockAvatarView.visibility = if (unlocksAvatar) View.VISIBLE else View.GONE
         levelUpDialog.findViewById<Button>(R.id.dialog_level_up_confirm).setOnClickListener { levelUpDialog.dismiss() }
         levelUpDialog.show()
     }
@@ -230,7 +287,7 @@ class QuizActivity : AppCompatActivity() {
     private fun updateUserBar() {
         val avatarResId = ProfileManager.getAvatarResId(this)
         quizUserAvatar.setImageResource(
-            if (avatarResId != 0) avatarResId else R.drawable.avatar_default
+            if (avatarResId != 0) avatarResId else R.drawable.avatar_student_default
         )
         val level = RankManager.getCurrentLevel(this)
         quizUserLevel.text = getString(R.string.exp_level_title_format, level, RankManager.getRankTitleOnly(this))
@@ -338,9 +395,25 @@ class QuizActivity : AppCompatActivity() {
         }
     }
 
+    private fun showFeedbackOverlay(isCorrect: Boolean) {
+        quizFeedbackText.text = if (isCorrect) getString(R.string.result_correct) else getString(R.string.result_incorrect)
+        quizFeedbackCard.setBackgroundResource(
+            if (isCorrect) R.drawable.bg_feedback_correct else R.drawable.bg_feedback_incorrect
+        )
+        if (isCorrect && lastExpGain > 0) {
+            quizFeedbackExp.text = getString(R.string.quiz_result_exp_format, lastExpGain)
+            quizFeedbackExp.visibility = View.VISIBLE
+        } else {
+            quizFeedbackExp.visibility = View.GONE
+        }
+        quizFeedbackOverlay.visibility = View.VISIBLE
+    }
+
     private fun updateQuestion() {
         val question = questions[currentIndex]
+        questionText.visibility = View.VISIBLE
         questionText.text = question.text
+        radioGroup.visibility = View.VISIBLE
 
         optionButtons.forEachIndexed { index, button ->
             if (index < question.options.size) {
@@ -352,9 +425,12 @@ class QuizActivity : AppCompatActivity() {
             }
         }
         radioGroup.clearCheck()
-        radioGroup.visibility = View.VISIBLE
         answerButton.isEnabled = true
         answerButton.visibility = View.VISIBLE
+        exitButton.visibility = View.VISIBLE
+        quizResultContainer.visibility = View.GONE
+        quizFeedbackOverlay.visibility = View.GONE
+        retryButton.visibility = View.GONE
         topButton.visibility = View.GONE
         updateProgress()
     }
@@ -372,10 +448,25 @@ class QuizActivity : AppCompatActivity() {
     }
 
     private fun showFinishedState() {
-        questionText.text = getString(R.string.quiz_complete_text)
+        questionText.visibility = View.GONE
         radioGroup.visibility = View.GONE
-        answerButton.isEnabled = false
         answerButton.visibility = View.GONE
+        exitButton.visibility = View.GONE
+
+        val correctRate = if (totalQuestions > 0) (correctCount * 100 / totalQuestions) else 0
+        val expGained = RankManager.getTotalExp(this) - expAtQuizStart
+        quizResultCorrectRateValue.text = getString(R.string.quiz_result_correct_rate_format, correctRate)
+        quizResultExpValue.text = getString(R.string.quiz_result_exp_format, expGained)
+        quizResultConsecutiveValue.text = getString(R.string.quiz_result_consecutive_format, maxConsecutiveThisRun)
+        quizResultEval.text = when {
+            correctRate >= 100 -> getString(R.string.quiz_eval_great)
+            correctRate >= 80 -> getString(R.string.quiz_eval_good)
+            correctRate >= 60 -> getString(R.string.quiz_eval_ok)
+            else -> getString(R.string.quiz_eval_keep)
+        }
+
+        quizResultContainer.visibility = View.VISIBLE
+        retryButton.visibility = View.VISIBLE
         topButton.visibility = View.VISIBLE
     }
 
@@ -386,6 +477,9 @@ class QuizActivity : AppCompatActivity() {
         correctCount = 0
         isFinished = false
         totalQuestions = questions.size
+        expAtQuizStart = RankManager.getTotalExp(this)
+        currentConsecutiveThisRun = 0
+        maxConsecutiveThisRun = 0
         if (questions.isEmpty()) return
         updateQuestion()
         updateStatus()

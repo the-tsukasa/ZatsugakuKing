@@ -2,7 +2,7 @@ package com.example.kadai09_pi12a_23
 
 /**
  * 头像预设配置：资源 ID 与解锁等级。
- * 0 表示默认头像（avatar_default）；新增头像只需在此扩展。
+ * 0 表示默认头像（avatar_student_default）；新增头像只需在此扩展。
  */
 data class AvatarPreset(
     val resId: Int,
@@ -10,13 +10,14 @@ data class AvatarPreset(
 )
 
 object AvatarConfig {
-    /** 预设列表：默认、预设2、Lv5、Lv6、王冠（Lv.10） */
+    /** 预设列表：默认、动物1、Lv5、Lv6、动物2、王冠 */
     val presets: List<AvatarPreset> = listOf(
-        AvatarPreset(R.drawable.avatar_default, 0),
-        AvatarPreset(R.drawable.avatar_preset_2, 0),
-        AvatarPreset(R.drawable.avatar_lv5, 5),
-        AvatarPreset(R.drawable.avatar_lv06, 6),
-        AvatarPreset(R.drawable.avatar_king, 10)
+        AvatarPreset(R.drawable.avatar_student_default, 0),
+        AvatarPreset(R.drawable.avatar_student_animal_1, 0),
+        AvatarPreset(R.drawable.avatar_reward_lv5, 5),
+        AvatarPreset(R.drawable.avatar_reward_lv6, 6),
+        AvatarPreset(R.drawable.avatar_student_animal_2, 10),
+        AvatarPreset(R.drawable.avatar_reward_king, 10)
     )
 
     fun resIdToIndex(resId: Int): Int {
