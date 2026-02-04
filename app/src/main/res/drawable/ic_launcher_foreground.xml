@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 雑学王：插画·扁平 - 圆形底 + 王冠 -->
+    <!-- 圆形底 (白) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,54m-34,0a34,34 0,1 1,68 0a34,34 0,1 1,-68 0" />
+    <!-- 王冠 (珊瑚色) - 三峰对称 -->
+    <path
+        android:fillColor="#FFFF7B6B"
+        android:pathData="M30,58 L38,46 L54,30 L70,46 L78,58 Z" />
+    <!-- 王冠底带 (略深一点，增加层次) -->
+    <path
+        android:fillColor="#FFE86A5A"
+        android:pathData="M28,60 L80,60 L78,64 L30,64 Z" />
+</vector>

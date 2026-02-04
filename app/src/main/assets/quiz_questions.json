@@ -1,0 +1,3604 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "2026年のサッカーワールドカップの開催地に含まれない国は？",
+      "options": [
+        "ブラジル",
+        "カナダ",
+        "メキシコ",
+        "アメリカ"
+      ],
+      "correctIndex": 0,
+      "genre": "世界"
+    },
+    {
+      "id": 2,
+      "text": "日本の通貨の単位は？",
+      "options": [
+        "ウォン",
+        "ドル",
+        "円",
+        "ユーロ"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 3,
+      "text": "日本の首都は？",
+      "options": [
+        "東京",
+        "大阪",
+        "名古屋",
+        "札幌"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 4,
+      "text": "1年は通常何日？",
+      "options": [
+        "360日",
+        "365日",
+        "366日",
+        "400日"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 5,
+      "text": "富士山の標高は約何m？",
+      "options": [
+        "3776m",
+        "3000m",
+        "4200m",
+        "2500m"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 6,
+      "text": "水の化学式は？",
+      "options": [
+        "CO2",
+        "O2",
+        "H2O",
+        "NaCl"
+      ],
+      "correctIndex": 2,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 7,
+      "text": "太陽系で最も大きい惑星は？",
+      "options": [
+        "地球",
+        "木星",
+        "火星",
+        "金星"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 8,
+      "text": "日本の国旗の色は？",
+      "options": [
+        "赤と白",
+        "青と白",
+        "赤と青",
+        "黒と白"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 9,
+      "text": "世界で最も大きい海は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "北極海"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 10,
+      "text": "日本の都道府県の数は？",
+      "options": [
+        "46",
+        "48",
+        "49",
+        "47"
+      ],
+      "correctIndex": 3,
+      "genre": "日本"
+    },
+    {
+      "id": 11,
+      "text": "3.14で始まる数の名前は？",
+      "options": [
+        "黄金比",
+        "自然対数",
+        "円周率",
+        "平方根2"
+      ],
+      "correctIndex": 2,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 12,
+      "text": "「犬」を英語で言うと？",
+      "options": [
+        "cat",
+        "dog",
+        "bird",
+        "fish"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 13,
+      "text": "光の速さに最も近いのは？",
+      "options": [
+        "30万km/s",
+        "3万km/s",
+        "3000km/s",
+        "300万km/s"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 14,
+      "text": "地球の衛星は？",
+      "options": [
+        "火星",
+        "太陽",
+        "月",
+        "金星"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 15,
+      "text": "1kmは何m？",
+      "options": [
+        "1000m",
+        "100m",
+        "10m",
+        "10000m"
+      ],
+      "correctIndex": 0,
+      "genre": "世界"
+    },
+    {
+      "id": 16,
+      "text": "日本で一番大きい湖は？",
+      "options": [
+        "霞ヶ浦",
+        "琵琶湖",
+        "諏訪湖",
+        "支笏湖"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 17,
+      "text": "さくらが咲く季節は？",
+      "options": [
+        "夏",
+        "秋",
+        "冬",
+        "春"
+      ],
+      "correctIndex": 3,
+      "genre": "日本"
+    },
+    {
+      "id": 18,
+      "text": "虹の色は一般に何色？",
+      "options": [
+        "5色",
+        "6色",
+        "7色",
+        "8色"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 19,
+      "text": "24時間は何分？",
+      "options": [
+        "1200分",
+        "1440分",
+        "1600分",
+        "1000分"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 20,
+      "text": "「令和」の前の元号は？",
+      "options": [
+        "平成",
+        "昭和",
+        "大正",
+        "明治"
+      ],
+      "correctIndex": 0,
+      "genre": "歴史"
+    },
+    {
+      "id": 21,
+      "text": "桜を英語で言うと？",
+      "options": [
+        "sakura tree",
+        "plum blossom",
+        "cherry blossom",
+        "rose"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 22,
+      "text": "日本円の通貨記号は？",
+      "options": [
+        "$",
+        "¥",
+        "€",
+        "£"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 23,
+      "text": "「火山」を英語で言うと？",
+      "options": [
+        "volcano",
+        "mountain",
+        "river",
+        "lake"
+      ],
+      "correctIndex": 0,
+      "genre": "世界"
+    },
+    {
+      "id": 24,
+      "text": "1時間は何分？",
+      "options": [
+        "60分",
+        "100分",
+        "30分",
+        "90分"
+      ],
+      "correctIndex": 0,
+      "genre": "世界"
+    },
+    {
+      "id": 25,
+      "text": "「北」を英語で言うと？",
+      "options": [
+        "south",
+        "east",
+        "west",
+        "north"
+      ],
+      "correctIndex": 3,
+      "genre": "世界"
+    },
+    {
+      "id": 26,
+      "text": "富士山は何県にまたがる？",
+      "options": [
+        "東京と神奈川",
+        "山梨と静岡",
+        "長野と岐阜",
+        "秋田と岩手"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 27,
+      "text": "日本の国鳥は？",
+      "options": [
+        "ツバメ",
+        "カラス",
+        "キジ",
+        "ハト"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 28,
+      "text": "1週間は何日？",
+      "options": [
+        "5日",
+        "6日",
+        "8日",
+        "7日"
+      ],
+      "correctIndex": 3,
+      "genre": "世界"
+    },
+    {
+      "id": 29,
+      "text": "二酸化炭素の化学式は？",
+      "options": [
+        "O2",
+        "CO2",
+        "H2O",
+        "N2"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 30,
+      "text": "ピアノの鍵盤の色は？",
+      "options": [
+        "白と黒",
+        "赤と白",
+        "青と白",
+        "黒と灰"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 31,
+      "text": "日本の最北端の都道府県は？",
+      "options": [
+        "青森",
+        "秋田",
+        "北海道",
+        "岩手"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 32,
+      "text": "赤道を英語で言うと？",
+      "options": [
+        "equator",
+        "meridian",
+        "tropic",
+        "orbit"
+      ],
+      "correctIndex": 0,
+      "genre": "世界"
+    },
+    {
+      "id": 33,
+      "text": "「魚」を英語で言うと？",
+      "options": [
+        "bird",
+        "fish",
+        "frog",
+        "shell"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 34,
+      "text": "日本で最も大きい島は？",
+      "options": [
+        "本州",
+        "北海道",
+        "九州",
+        "四国"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 35,
+      "text": "富士山の標高の単位は？",
+      "options": [
+        "km",
+        "cm",
+        "m",
+        "mm"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 36,
+      "text": "新幹線は何の乗り物？",
+      "options": [
+        "飛行機",
+        "列車",
+        "船",
+        "バス"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 37,
+      "text": "オリンピックは何年ごとに開催？",
+      "options": [
+        "2年",
+        "3年",
+        "5年",
+        "4年"
+      ],
+      "correctIndex": 3,
+      "genre": "世界"
+    },
+    {
+      "id": 38,
+      "text": "食塩の主成分は？",
+      "options": [
+        "塩化ナトリウム",
+        "硫酸",
+        "水素",
+        "酸素"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 39,
+      "text": "地球の自転周期は？",
+      "options": [
+        "12時間",
+        "30時間",
+        "24時間",
+        "48時間"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 40,
+      "text": "日本の郵便マークは？",
+      "options": [
+        "〒",
+        "★",
+        "◆",
+        "♪"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 41,
+      "text": "日本の硬貨で最大額は？",
+      "options": [
+        "100円",
+        "50円",
+        "10円",
+        "500円"
+      ],
+      "correctIndex": 3,
+      "genre": "日本"
+    },
+    {
+      "id": 42,
+      "text": "日本の国番号は？",
+      "options": [
+        "81",
+        "86",
+        "82",
+        "61"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 43,
+      "text": "一番小さい素数は？",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 44,
+      "text": "1リットルは何ミリリットル？",
+      "options": [
+        "10ml",
+        "100ml",
+        "1000ml",
+        "10000ml"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 45,
+      "text": "日本の小学校の義務教育期間は？",
+      "options": [
+        "6年",
+        "5年",
+        "9年",
+        "3年"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 46,
+      "text": "日本の国花の一つは？",
+      "options": [
+        "ひまわり",
+        "桜",
+        "バラ",
+        "チューリップ"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 47,
+      "text": "春の次の季節は？",
+      "options": [
+        "冬",
+        "秋",
+        "夏",
+        "春"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 48,
+      "text": "日本語でHelloは？",
+      "options": [
+        "こんにちは",
+        "さようなら",
+        "おはよう",
+        "ありがとう"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 49,
+      "text": "赤と青を混ぜると何色？",
+      "options": [
+        "緑",
+        "紫",
+        "黄",
+        "黒"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 50,
+      "text": "地球は太陽の周りを何日で回る？",
+      "options": [
+        "24日",
+        "30日",
+        "365日",
+        "400日"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 51,
+      "text": "「HTML」のHは何の略？",
+      "options": [
+        "HyperText",
+        "High",
+        "Home",
+        "Host"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 52,
+      "text": "CPUの正式名称は？",
+      "options": [
+        "Central Processing Unit",
+        "Computer Personal Unit",
+        "Core Program Unit",
+        "Central Program Utility"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 53,
+      "text": "1バイトは何ビット？",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 54,
+      "text": "「API」のAは何の略？",
+      "options": [
+        "Application",
+        "Advanced",
+        "Automatic",
+        "Artificial"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 55,
+      "text": "OS（オペレーティングシステム）でないのは？",
+      "options": [
+        "Windows",
+        "macOS",
+        "Excel",
+        "Linux"
+      ],
+      "correctIndex": 2,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 56,
+      "text": "プログラミング言語でないのは？",
+      "options": [
+        "Python",
+        "Java",
+        "HTML",
+        "Kotlin"
+      ],
+      "correctIndex": 2,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 57,
+      "text": "「Wi-Fi」のFiは何の略？",
+      "options": [
+        "File",
+        "Fidelity",
+        "Frequency",
+        "Fast"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 58,
+      "text": "Webブラウザでないのは？",
+      "options": [
+        "Chrome",
+        "Safari",
+        "Word",
+        "Firefox"
+      ],
+      "correctIndex": 2,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 59,
+      "text": "2026年ワールドカップの開催地は？",
+      "options": [
+        "アメリカ・カナダ・メキシコ",
+        "ブラジル・アルゼンチン",
+        "ドイツ・フランス",
+        "日本・韓国"
+      ],
+      "correctIndex": 0,
+      "genre": "世界"
+    },
+    {
+      "id": 60,
+      "text": "世界で一番面積が大きい国は？",
+      "options": [
+        "中国",
+        "アメリカ",
+        "ロシア",
+        "カナダ"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 61,
+      "text": "エッフェル塔がある都市は？",
+      "options": [
+        "ロンドン",
+        "ベルリン",
+        "パリ",
+        "ローマ"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 62,
+      "text": "万里の長城がある国は？",
+      "options": [
+        "日本",
+        "韓国",
+        "中国",
+        "モンゴル"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 63,
+      "text": "ピラミッドがある国は？",
+      "options": [
+        "イラン",
+        "エジプト",
+        "トルコ",
+        "イラク"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 64,
+      "text": "コロッセオがある国は？",
+      "options": [
+        "ギリシャ",
+        "イタリア",
+        "スペイン",
+        "ポルトガル"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 65,
+      "text": "アンコールワットがある国は？",
+      "options": [
+        "タイ",
+        "ベトナム",
+        "カンボジア",
+        "ラオス"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 66,
+      "text": "タージマハルがある国は？",
+      "options": [
+        "パキスタン",
+        "バングラデシュ",
+        "インド",
+        "スリランカ"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 67,
+      "text": "マッチャーピッチュがある国は？",
+      "options": [
+        "チリ",
+        "ペルー",
+        "ボリビア",
+        "エクアドル"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 68,
+      "text": "モアイ像がある島は？",
+      "options": [
+        "ハワイ",
+        "イースター島",
+        "グアム",
+        "フィジー"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 69,
+      "text": "世界で一番人口が多い国は？",
+      "options": [
+        "インド",
+        "中国",
+        "アメリカ",
+        "インドネシア"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 70,
+      "text": "世界で一番面積が小さい国は？",
+      "options": [
+        "モナコ",
+        "バチカン",
+        "ナウル",
+        "サンマリノ"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 71,
+      "text": "世界で一番長い川は？",
+      "options": [
+        "ナイル川",
+        "アマゾン川",
+        "長江",
+        "ミシシッピ川"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 72,
+      "text": "世界で一番高い山は？",
+      "options": [
+        "K2",
+        "エベレスト",
+        "カンチェンジュンガ",
+        "ローツェ"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 73,
+      "text": "世界で一番深い海は？",
+      "options": [
+        "大西洋",
+        "インド洋",
+        "太平洋",
+        "南極海"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 74,
+      "text": "世界で一番大きい砂漠は？",
+      "options": [
+        "ゴビ",
+        "サハラ",
+        "アラビア",
+        "カラハリ"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 75,
+      "text": "世界で一番大きい島は？",
+      "options": [
+        "マダガスカル",
+        "ボルネオ",
+        "グリーンランド",
+        "ニューギニア"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 76,
+      "text": "世界で一番大きい湖は？",
+      "options": [
+        "ビクトリア湖",
+        "スペリオル湖",
+        "カスピ海",
+        "バイカル湖"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 77,
+      "text": "アフリカで一番面積が大きい国は？",
+      "options": [
+        "ナイジェリア",
+        "エジプト",
+        "アルジェリア",
+        "コンゴ"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 78,
+      "text": "ヨーロッパで一番面積が大きい国は？",
+      "options": [
+        "ドイツ",
+        "フランス",
+        "スペイン",
+        "ロシア"
+      ],
+      "correctIndex": 3,
+      "genre": "世界"
+    },
+    {
+      "id": 79,
+      "text": "南米で一番面積が大きい国は？",
+      "options": [
+        "アルゼンチン",
+        "ペルー",
+        "ブラジル",
+        "コロンビア"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 80,
+      "text": "オセアニアで一番面積が大きい国は？",
+      "options": [
+        "ニュージーランド",
+        "パプアニューギニア",
+        "フィジー",
+        "オーストラリア"
+      ],
+      "correctIndex": 3,
+      "genre": "世界"
+    },
+    {
+      "id": 81,
+      "text": "北米で一番面積が大きい国は？",
+      "options": [
+        "アメリカ",
+        "メキシコ",
+        "カナダ",
+        "グリーンランド"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 82,
+      "text": "アジアで一番面積が大きい国は？",
+      "options": [
+        "インド",
+        "中国",
+        "ロシア",
+        "カザフスタン"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 83,
+      "text": "EUの本部がある都市は？",
+      "options": [
+        "パリ",
+        "ベルリン",
+        "ブリュッセル",
+        "アムステルダム"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 84,
+      "text": "国連の本部がある都市は？",
+      "options": [
+        "ワシントン",
+        "ロンドン",
+        "ジュネーブ",
+        "ニューヨーク"
+      ],
+      "correctIndex": 3,
+      "genre": "世界"
+    },
+    {
+      "id": 85,
+      "text": "赤十字の創設者は？",
+      "options": [
+        "バーナード",
+        "ダンテ",
+        "デュナン",
+        "ナポレオン"
+      ],
+      "correctIndex": 2,
+      "genre": "世界"
+    },
+    {
+      "id": 87,
+      "text": "日本で一番人口が多い都市は？",
+      "options": [
+        "大阪",
+        "横浜",
+        "東京",
+        "名古屋"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 88,
+      "text": "日本で一番面積が大きい都道府県は？",
+      "options": [
+        "岩手",
+        "福島",
+        "北海道",
+        "長野"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 89,
+      "text": "日本で一番小さい都道府県は？",
+      "options": [
+        "大阪",
+        "香川",
+        "東京",
+        "沖縄"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 90,
+      "text": "日本で一番人口が少ない県は？",
+      "options": [
+        "島根",
+        "高知",
+        "鳥取",
+        "福井"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 91,
+      "text": "日本で一番標高が高い山は？",
+      "options": [
+        "北岳",
+        "奥穂高岳",
+        "富士山",
+        "間ノ岳"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 92,
+      "text": "日本で一番深い湖は？",
+      "options": [
+        "琵琶湖",
+        "中禅寺湖",
+        "田沢湖",
+        "支笏湖"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 93,
+      "text": "日本で一番大きい島は？",
+      "options": [
+        "北海道",
+        "本州",
+        "四国",
+        "九州"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 94,
+      "text": "日本で一番長い川は？",
+      "options": [
+        "利根川",
+        "石狩川",
+        "信濃川",
+        "北上川"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 95,
+      "text": "日本で一番高いビルは？",
+      "options": [
+        "東京タワー",
+        "スカイツリー",
+        "横浜ランドマーク",
+        "あべのハルカス"
+      ],
+      "correctIndex": 3,
+      "genre": "日本"
+    },
+    {
+      "id": 96,
+      "text": "日本の最北端は？",
+      "options": [
+        "宗谷岬",
+        "納沙布岬",
+        "襟裳岬",
+        "神威岬"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 97,
+      "text": "日本の最南端は？",
+      "options": [
+        "沖ノ鳥島",
+        "波照間島",
+        "与那国島",
+        "南大東島"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 98,
+      "text": "日本の最東端は？",
+      "options": [
+        "納沙布岬",
+        "襟裳岬",
+        "神威岬",
+        "宗谷岬"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 99,
+      "text": "日本の最西端は？",
+      "options": [
+        "与那国島",
+        "波照間島",
+        "石垣島",
+        "宮古島"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 100,
+      "text": "日本で一番古い神社は？",
+      "options": [
+        "伊勢神宮",
+        "出雲大社",
+        "大神神社",
+        "石上神宮"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 101,
+      "text": "日本で一番古い大学は？",
+      "options": [
+        "東京大学",
+        "京都大学",
+        "慶應義塾",
+        "龍谷大学"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 102,
+      "text": "日本で一番古いお菓子は？",
+      "options": [
+        "羊羹",
+        "落雁",
+        "煎餅",
+        "饅頭"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 103,
+      "text": "日本で一番古い温泉は？",
+      "options": [
+        "有馬温泉",
+        "草津温泉",
+        "道後温泉",
+        "白浜温泉"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 104,
+      "text": "日本三景の一つは？",
+      "options": [
+        "富士山",
+        "日光",
+        "松島",
+        "箱根"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 105,
+      "text": "日本で一番有名な桜の名所は？",
+      "options": [
+        "上野公園",
+        "吉野山",
+        "弘前公園",
+        "目黒川"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 106,
+      "text": "日本で一番早く桜が咲くのは？",
+      "options": [
+        "東京",
+        "京都",
+        "沖縄",
+        "北海道"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 107,
+      "text": "日本で一番遅く桜が咲くのは？",
+      "options": [
+        "東京",
+        "京都",
+        "沖縄",
+        "北海道"
+      ],
+      "correctIndex": 3,
+      "genre": "日本"
+    },
+    {
+      "id": 108,
+      "text": "日本で一番大きな港は？",
+      "options": [
+        "大阪港",
+        "横浜港",
+        "名古屋港",
+        "東京港"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 109,
+      "text": "日本で一番多い姓は？",
+      "options": [
+        "佐藤",
+        "鈴木",
+        "高橋",
+        "田中"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 110,
+      "text": "日本で一番多い名字の読みは？",
+      "options": [
+        "たなか",
+        "すずき",
+        "さとう",
+        "たかはし"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 111,
+      "text": "日本で一番小さい市は？",
+      "options": [
+        "岐阜市",
+        "高山市",
+        "郡上市",
+        "羽島市"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 112,
+      "text": "日本で一番大きな湖は？",
+      "options": [
+        "霞ヶ浦",
+        "琵琶湖",
+        "中禅寺湖",
+        "猪苗代湖"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 113,
+      "text": "日本で一番高い滝は？",
+      "options": [
+        "華厳の滝",
+        "那智の滝",
+        "袋田の滝",
+        "白山手取川"
+      ],
+      "correctIndex": 0,
+      "genre": "日本"
+    },
+    {
+      "id": 114,
+      "text": "日本で一番長いトンネルは？",
+      "options": [
+        "関門トンネル",
+        "青函トンネル",
+        "関越トンネル",
+        "飛騨トンネル"
+      ],
+      "correctIndex": 1,
+      "genre": "日本"
+    },
+    {
+      "id": 117,
+      "text": "「GUI」は何の略？",
+      "options": [
+        "General User Interface",
+        "Graphical User Interface",
+        "Global User Interface",
+        "Generic User Interface"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 118,
+      "text": "「LAN」は何の略？",
+      "options": [
+        "Large Area Network",
+        "Local Area Network",
+        "Long Area Network",
+        "Light Area Network"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 119,
+      "text": "「WAN」は何の略？",
+      "options": [
+        "Wide Area Network",
+        "Wireless Area Network",
+        "Web Area Network",
+        "World Area Network"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 120,
+      "text": "「VPN」は何の略？",
+      "options": [
+        "Virtual Private Network",
+        "Virtual Public Network",
+        "Very Private Network",
+        "Video Phone Network"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 121,
+      "text": "「DNS」は何の略？",
+      "options": [
+        "Domain Name System",
+        "Digital Network System",
+        "Data Name Service",
+        "Domain Network Service"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 122,
+      "text": "「IP」は何の略？",
+      "options": [
+        "Internet Protocol",
+        "Internal Protocol",
+        "International Protocol",
+        "Information Protocol"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 123,
+      "text": "「HTTP」は何の略？",
+      "options": [
+        "HyperText Transfer Protocol",
+        "HyperText Transmission Protocol",
+        "HighText Transfer Protocol",
+        "HomeText Transfer Protocol"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 124,
+      "text": "「HTML」は何の略？",
+      "options": [
+        "HyperText Markup Language",
+        "HyperText Makeup Language",
+        "HighText Markup Language",
+        "HomeText Markup Language"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 125,
+      "text": "「CSS」は何の略？",
+      "options": [
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 126,
+      "text": "「SQL」は何の略？",
+      "options": [
+        "Simple Query Language",
+        "Structured Query Language",
+        "System Query Language",
+        "Standard Query Language"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 127,
+      "text": "「IDE」は何の略？",
+      "options": [
+        "Integrated Development Environment",
+        "International Development Environment",
+        "Intelligent Development Environment",
+        "Interactive Development Environment"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 128,
+      "text": "「PDF」は何の略？",
+      "options": [
+        "Personal Document Format",
+        "Portable Document Format",
+        "Public Document Format",
+        "Printed Document Format"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 129,
+      "text": "「JPEG」は何の略？",
+      "options": [
+        "Joint Photographic Experts Group",
+        "Joint Picture Experts Group",
+        "Java Photographic Experts Group",
+        "Joint Photo Electronic Group"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 130,
+      "text": "「PNG」は何の略？",
+      "options": [
+        "Portable Network Graphics",
+        "Personal Network Graphics",
+        "Public Network Graphics",
+        "Printed Network Graphics"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 131,
+      "text": "「GIF」は何の略？",
+      "options": [
+        "Graphics Interchange Format",
+        "Graphical Image Format",
+        "General Image Format",
+        "Game Image Format"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 132,
+      "text": "「MP3」は何の略？",
+      "options": [
+        "Music Player 3",
+        "MPEG Audio Layer 3",
+        "Media Player 3",
+        "Music Protocol 3"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 133,
+      "text": "「URL」は何の略？",
+      "options": [
+        "Universal Resource Locator",
+        "Uniform Resource Locator",
+        "Unique Resource Locator",
+        "United Resource Locator"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 134,
+      "text": "「USB」は何の略？",
+      "options": [
+        "Universal Serial Bus",
+        "Uniform Serial Bus",
+        "Unique Serial Bus",
+        "United Serial Bus"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 135,
+      "text": "「HDMI」は何の略？",
+      "options": [
+        "High Definition Media Interface",
+        "High Definition Multimedia Interface",
+        "Home Digital Media Interface",
+        "High Digital Media Interface"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 136,
+      "text": "「LCD」は何の略？",
+      "options": [
+        "Liquid Color Display",
+        "Liquid Crystal Display",
+        "Light Crystal Display",
+        "Liquid Clear Display"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 137,
+      "text": "「LED」は何の略？",
+      "options": [
+        "Light Emitting Diode",
+        "Light Electronic Diode",
+        "Liquid Emitting Diode",
+        "Light Energy Diode"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 138,
+      "text": "「OLED」は何の略？",
+      "options": [
+        "Organic Light Emitting Diode",
+        "Optical Light Emitting Diode",
+        "Organic Liquid Emitting Diode",
+        "Optical Liquid Emitting Diode"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 139,
+      "text": "「RAM」は何の略？",
+      "options": [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Random Application Memory",
+        "Read Application Memory"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 140,
+      "text": "「ROM」は何の略？",
+      "options": [
+        "Random Only Memory",
+        "Read Only Memory",
+        "Random Output Memory",
+        "Read Output Memory"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 141,
+      "text": "「GPU」は何の略？",
+      "options": [
+        "General Processing Unit",
+        "Graphics Processing Unit",
+        "Global Processing Unit",
+        "Game Processing Unit"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 142,
+      "text": "「FPS」は何の略？",
+      "options": [
+        "Frames Per Second",
+        "Files Per Second",
+        "Frequency Per Second",
+        "Functions Per Second"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 143,
+      "text": "「ASCII」は何の略？",
+      "options": [
+        "American Standard Code for Information Interchange",
+        "American Standard Computer Information Interchange",
+        "Advanced Standard Code for Information Interchange",
+        "American Security Code for Information Interchange"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 144,
+      "text": "「BIOS」は何の略？",
+      "options": [
+        "Basic Input Output System",
+        "Basic Internal Output System",
+        "Basic Input Online System",
+        "Basic Internet Output System"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 145,
+      "text": "「CAD」は何の略？",
+      "options": [
+        "Computer Aided Design",
+        "Computer Assisted Design",
+        "Creative Aided Design",
+        "Computer Advanced Design"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 154,
+      "text": "平安時代は何年から？",
+      "options": [
+        "710年",
+        "794年",
+        "1192年",
+        "1336年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 155,
+      "text": "鎌倉時代は何年から？",
+      "options": [
+        "794年",
+        "1192年",
+        "1336年",
+        "1573年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 156,
+      "text": "室町時代は何年から？",
+      "options": [
+        "1192年",
+        "1336年",
+        "1573年",
+        "1603年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 157,
+      "text": "安土桃山時代は何年から？",
+      "options": [
+        "1336年",
+        "1573年",
+        "1603年",
+        "1868年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 158,
+      "text": "江戸時代は何年から？",
+      "options": [
+        "1573年",
+        "1603年",
+        "1868年",
+        "1912年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 159,
+      "text": "明治時代は何年から？",
+      "options": [
+        "1853年",
+        "1868年",
+        "1900年",
+        "1912年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 160,
+      "text": "大正時代は何年から？",
+      "options": [
+        "1868年",
+        "1912年",
+        "1926年",
+        "1945年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 161,
+      "text": "昭和時代は何年から？",
+      "options": [
+        "1912年",
+        "1926年",
+        "1945年",
+        "1989年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 162,
+      "text": "平成時代は何年から？",
+      "options": [
+        "1926年",
+        "1989年",
+        "1990年",
+        "2000年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 163,
+      "text": "令和時代は何年から？",
+      "options": [
+        "1989年",
+        "2000年",
+        "2019年",
+        "2020年"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 164,
+      "text": "源頼朝は何を開いた？",
+      "options": [
+        "室町幕府",
+        "鎌倉幕府",
+        "江戸幕府",
+        "明治政府"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 165,
+      "text": "足利尊氏は何を開いた？",
+      "options": [
+        "鎌倉幕府",
+        "室町幕府",
+        "江戸幕府",
+        "明治政府"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 166,
+      "text": "徳川家康は何を開いた？",
+      "options": [
+        "室町幕府",
+        "江戸幕府",
+        "鎌倉幕府",
+        "明治政府"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 167,
+      "text": "坂本龍馬は何時代の人物？",
+      "options": [
+        "江戸時代",
+        "明治時代",
+        "大正時代",
+        "昭和時代"
+      ],
+      "correctIndex": 0,
+      "genre": "歴史"
+    },
+    {
+      "id": 168,
+      "text": "織田信長は何時代の武将？",
+      "options": [
+        "室町時代",
+        "安土桃山時代",
+        "江戸時代",
+        "明治時代"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 169,
+      "text": "豊臣秀吉は何時代の武将？",
+      "options": [
+        "室町時代",
+        "安土桃山時代",
+        "江戸時代",
+        "明治時代"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 170,
+      "text": "明治維新は何年？",
+      "options": [
+        "1853年",
+        "1868年",
+        "1900年",
+        "1945年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 171,
+      "text": "黒船来航は何年？",
+      "options": [
+        "1853年",
+        "1868年",
+        "1900年",
+        "1945年"
+      ],
+      "correctIndex": 0,
+      "genre": "歴史"
+    },
+    {
+      "id": 172,
+      "text": "日清戦争は何年？",
+      "options": [
+        "1894年",
+        "1904年",
+        "1914年",
+        "1937年"
+      ],
+      "correctIndex": 0,
+      "genre": "歴史"
+    },
+    {
+      "id": 173,
+      "text": "日露戦争は何年？",
+      "options": [
+        "1894年",
+        "1904年",
+        "1914年",
+        "1937年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 174,
+      "text": "第一次世界大戦は何年から？",
+      "options": [
+        "1904年",
+        "1914年",
+        "1939年",
+        "1945年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 175,
+      "text": "第二次世界大戦は何年から？",
+      "options": [
+        "1914年",
+        "1937年",
+        "1939年",
+        "1941年"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 176,
+      "text": "太平洋戦争開戦は何年？",
+      "options": [
+        "1937年",
+        "1939年",
+        "1941年",
+        "1945年"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 177,
+      "text": "日本が降伏したのは何年？",
+      "options": [
+        "1943年",
+        "1944年",
+        "1945年",
+        "1946年"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 178,
+      "text": "日本国憲法が施行されたのは何年？",
+      "options": [
+        "1945年",
+        "1947年",
+        "1950年",
+        "1960年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 179,
+      "text": "東京オリンピック（初）は何年？",
+      "options": [
+        "1960年",
+        "1964年",
+        "1968年",
+        "1972年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 180,
+      "text": "大阪万博は何年？",
+      "options": [
+        "1964年",
+        "1970年",
+        "1975年",
+        "1980年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 181,
+      "text": "東京オリンピック（2回目）は何年？",
+      "options": [
+        "2016年",
+        "2020年",
+        "2021年",
+        "2024年"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 182,
+      "text": "ナポレオンは何国の皇帝？",
+      "options": [
+        "イギリス",
+        "ドイツ",
+        "フランス",
+        "イタリア"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 203,
+      "text": "ポケモンの主人公のライバルは？",
+      "options": [
+        "グリーン",
+        "レッド",
+        "ブルー",
+        "イエロー"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 204,
+      "text": "ドラゴンボールの主人公は？",
+      "options": [
+        "ベジータ",
+        "孫悟空",
+        "ピッコロ",
+        "悟飯"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 205,
+      "text": "ワンピースの主人公は？",
+      "options": [
+        "ゾロ",
+        "サンジ",
+        "ルフィ",
+        "ナミ"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 206,
+      "text": "ナルトの主人公は？",
+      "options": [
+        "サスケ",
+        "ナルト",
+        "サクラ",
+        "カカシ"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 207,
+      "text": "鬼滅の刃の主人公は？",
+      "options": [
+        "善逸",
+        "伊之助",
+        "炭治郎",
+        "義勇"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 208,
+      "text": "進撃の巨人の主人公は？",
+      "options": [
+        "アルミン",
+        "ミカサ",
+        "エレン",
+        "リヴァイ"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 209,
+      "text": "僕のヒーローアカデミアの主人公は？",
+      "options": [
+        "爆豪",
+        "緑谷",
+        "飯田",
+        "麗日"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 210,
+      "text": "呪術廻戦の主人公は？",
+      "options": [
+        "伏黒",
+        "釘崎",
+        "虎杖",
+        "五条"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 211,
+      "text": "スパイファミリーの主人公は？",
+      "options": [
+        "ロイド",
+        "ヨル",
+        "アーニャ",
+        "ボンド"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 212,
+      "text": "チェンソーマンの主人公は？",
+      "options": [
+        "アキ",
+        "パワー",
+        "デンジ",
+        "マキマ"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 213,
+      "text": "ブルーロックの題材は？",
+      "options": [
+        "バスケ",
+        "サッカー",
+        "野球",
+        "バレー"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 214,
+      "text": "名探偵コナンの主人公は？",
+      "options": [
+        "工藤新一",
+        "毛利蘭",
+        "灰原哀",
+        "服部平次"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 215,
+      "text": "名探偵コナンの組織は？",
+      "options": [
+        "FBI",
+        "CIA",
+        "黒の組織",
+        "公安"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 216,
+      "text": "キン肉マンの主人公は？",
+      "options": [
+        "テリーマン",
+        "キン肉マン",
+        "ロビンマスク",
+        "ウォーズマン"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 217,
+      "text": "北斗の拳の主人公は？",
+      "options": [
+        "レイ",
+        "トキ",
+        "ケンシロウ",
+        "ラオウ"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 218,
+      "text": "ジョジョの奇妙な冒険の第1部主人公は？",
+      "options": [
+        "ジョセフ",
+        "承太郎",
+        "ジョナサン",
+        "仗助"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 219,
+      "text": "ジョジョの奇妙な冒険の第3部主人公は？",
+      "options": [
+        "ジョナサン",
+        "ジョセフ",
+        "承太郎",
+        "仗助"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 220,
+      "text": "SLAM DUNKの主人公は？",
+      "options": [
+        "流川",
+        "桜木",
+        "三井",
+        "宮城"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 221,
+      "text": "ハイキューの題材は？",
+      "options": [
+        "バスケ",
+        "サッカー",
+        "野球",
+        "バレー"
+      ],
+      "correctIndex": 3,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 222,
+      "text": "テニスの王子様の題材は？",
+      "options": [
+        "硬式テニス",
+        "軟式テニス",
+        "卓球",
+        "バドミントン"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 223,
+      "text": "遊☆戯☆王の主人公は？",
+      "options": [
+        "海馬",
+        "遊戯",
+        "城之内",
+        "マリク"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 224,
+      "text": "デジモンアドベンチャーの主人公は？",
+      "options": [
+        "太一",
+        "ヤマト",
+        "光子郎",
+        "丈"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 225,
+      "text": "ポケモンの主人公の初期ポケモンは？",
+      "options": [
+        "ピカチュウ",
+        "ヒトカゲ",
+        "ゼニガメ",
+        "フシギダネ"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 226,
+      "text": "マリオの弟は？",
+      "options": [
+        "ワリオ",
+        "ルイージ",
+        "ワルイージ",
+        "キノピオ"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 227,
+      "text": "ゼルダの伝説の主人公は？",
+      "options": [
+        "ゼルダ",
+        "リンク",
+        "ガノン",
+        "インプ"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 228,
+      "text": "ファイナルファンタジーの開発元は？",
+      "options": [
+        "任天堂",
+        "カプコン",
+        "スクエニ",
+        "コナミ"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 229,
+      "text": "ドラゴンクエストの開発元は？",
+      "options": [
+        "任天堂",
+        "カプコン",
+        "スクエニ",
+        "コナミ"
+      ],
+      "correctIndex": 2,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 230,
+      "text": "モンスターハンターの開発元は？",
+      "options": [
+        "任天堂",
+        "カプコン",
+        "スクエニ",
+        "コナミ"
+      ],
+      "correctIndex": 1,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 231,
+      "text": "ポケモンの開発元は？",
+      "options": [
+        "ゲームフリーク",
+        "カプコン",
+        "スクエニ",
+        "コナミ"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 252,
+      "text": "寿司の主な材料は？",
+      "options": [
+        "米",
+        "小麦",
+        "大豆",
+        "とうもろこし"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 253,
+      "text": "ラーメンの主な材料は？",
+      "options": [
+        "米",
+        "小麦粉",
+        "大豆",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 254,
+      "text": "うどんの主な材料は？",
+      "options": [
+        "米",
+        "小麦粉",
+        "そば粉",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 255,
+      "text": "そばの主な材料は？",
+      "options": [
+        "米",
+        "小麦粉",
+        "そば粉",
+        "とうもろこし"
+      ],
+      "correctIndex": 2,
+      "genre": "食べ物"
+    },
+    {
+      "id": 256,
+      "text": "パスタの主な材料は？",
+      "options": [
+        "米",
+        "小麦粉",
+        "そば粉",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 257,
+      "text": "パンの主な材料は？",
+      "options": [
+        "米",
+        "小麦粉",
+        "そば粉",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 258,
+      "text": "おにぎりの主な材料は？",
+      "options": [
+        "米",
+        "小麦粉",
+        "そば粉",
+        "とうもろこし"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 259,
+      "text": "お寿司の「シャリ」は何？",
+      "options": [
+        "魚",
+        "米",
+        "海苔",
+        "醤油"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 260,
+      "text": "お寿司の「ネタ」は何？",
+      "options": [
+        "米",
+        "魚",
+        "海苔",
+        "醤油"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 261,
+      "text": "味噌汁の主な材料は？",
+      "options": [
+        "醤油",
+        "味噌",
+        "塩",
+        "砂糖"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 262,
+      "text": "醤油の主原料は？",
+      "options": [
+        "小麦",
+        "大豆",
+        "米",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 263,
+      "text": "味噌の主原料は？",
+      "options": [
+        "小麦",
+        "大豆",
+        "米",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 264,
+      "text": "豆腐の主原料は？",
+      "options": [
+        "小麦",
+        "大豆",
+        "米",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 265,
+      "text": "納豆の主原料は？",
+      "options": [
+        "小麦",
+        "大豆",
+        "米",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 266,
+      "text": "天ぷらの衣の主材料は？",
+      "options": [
+        "米",
+        "小麦粉",
+        "そば粉",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 267,
+      "text": "カレーの主な香辛料は？",
+      "options": [
+        "ターメリック",
+        "カレー粉",
+        "クミン",
+        "コリアンダー"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 268,
+      "text": "わさびは何から作る？",
+      "options": [
+        "山葵",
+        "辛子",
+        "胡椒",
+        "唐辛子"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 269,
+      "text": "からしは何から作る？",
+      "options": [
+        "山葵",
+        "辛子",
+        "胡椒",
+        "唐辛子"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 270,
+      "text": "唐辛子は何から作る？",
+      "options": [
+        "山葵",
+        "辛子",
+        "胡椒",
+        "唐辛子"
+      ],
+      "correctIndex": 3,
+      "genre": "食べ物"
+    },
+    {
+      "id": 271,
+      "text": "胡椒は何から作る？",
+      "options": [
+        "山葵",
+        "辛子",
+        "コショウの木",
+        "唐辛子"
+      ],
+      "correctIndex": 2,
+      "genre": "食べ物"
+    },
+    {
+      "id": 272,
+      "text": "塩の主成分は？",
+      "options": [
+        "炭化水素",
+        "塩化ナトリウム",
+        "酸素",
+        "水素"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 273,
+      "text": "砂糖の主成分は？",
+      "options": [
+        "グルコース",
+        "果糖",
+        "ショ糖",
+        "乳糖"
+      ],
+      "correctIndex": 2,
+      "genre": "食べ物"
+    },
+    {
+      "id": 274,
+      "text": "はちみつは何から作る？",
+      "options": [
+        "蜂",
+        "花",
+        "木",
+        "草"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 275,
+      "text": "チーズは何から作る？",
+      "options": [
+        "牛乳",
+        "豆乳",
+        "ココナッツ",
+        "アーモンド"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 276,
+      "text": "バターは何から作る？",
+      "options": [
+        "牛乳",
+        "豆乳",
+        "ココナッツ",
+        "アーモンド"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 277,
+      "text": "ヨーグルトは何から作る？",
+      "options": [
+        "牛乳",
+        "豆乳",
+        "ココナッツ",
+        "アーモンド"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 278,
+      "text": "アイスクリームは何が主原料？",
+      "options": [
+        "牛乳",
+        "豆乳",
+        "ココナッツ",
+        "アーモンド"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 279,
+      "text": "チョコレートの主原料は？",
+      "options": [
+        "カカオ",
+        "砂糖",
+        "牛乳",
+        "バニラ"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 280,
+      "text": "コーヒーの主原料は？",
+      "options": [
+        "茶葉",
+        "コーヒー豆",
+        "カカオ",
+        "小麦"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 281,
+      "text": "「Mbps」は何の単位？",
+      "options": [
+        "容量",
+        "速度",
+        "周波数",
+        "電圧"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 282,
+      "text": "「GHz」は何の単位？",
+      "options": [
+        "速度",
+        "周波数",
+        "容量",
+        "電圧"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 283,
+      "text": "「TB」は何の単位？",
+      "options": [
+        "速度",
+        "容量",
+        "周波数",
+        "電圧"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 284,
+      "text": "「VGA」は何の略？",
+      "options": [
+        "Video Graphics Array",
+        "Virtual Graphics Array",
+        "Visual Graphics Adapter",
+        "Video Game Adapter"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 285,
+      "text": "「DVI」は何の略？",
+      "options": [
+        "Digital Video Interface",
+        "Digital Visual Interface",
+        "Display Video Interface",
+        "Direct Video Input"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 286,
+      "text": "「HDCP」は何の略？",
+      "options": [
+        "High Definition Content Protection",
+        "High-bandwidth Digital Content Protection",
+        "Home Digital Content Protection",
+        "Hardware Digital Content Protection"
+      ],
+      "correctIndex": 1,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 287,
+      "text": "「SSID」は何の略？",
+      "options": [
+        "Service Set Identifier",
+        "System Set Identifier",
+        "Security Set Identifier",
+        "Signal Set Identifier"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 288,
+      "text": "「MACアドレス」は何に使う？",
+      "options": [
+        "ネットワーク機器の識別",
+        "メール送信",
+        "ファイル保存",
+        "画面表示"
+      ],
+      "correctIndex": 0,
+      "genre": "IT・テクノロジー"
+    },
+    {
+      "id": 289,
+      "text": "「ドラえもん」の道具でないのは？",
+      "options": [
+        "タケコプター",
+        "どこでもドア",
+        "四次元ポケット",
+        "タイムマシン"
+      ],
+      "correctIndex": 3,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 290,
+      "text": "「ちびまる子ちゃん」の作者は？",
+      "options": [
+        "さくらももこ",
+        "高橋留美子",
+        "武内直子",
+        "CLAMP"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 291,
+      "text": "「クレヨンしんちゃん」の作者は？",
+      "options": [
+        "臼井儀人",
+        "藤田和日郎",
+        "藤本タツキ",
+        "鳥山明"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 292,
+      "text": "「アンパンマン」の作者は？",
+      "options": [
+        "やなせたかし",
+        "手塚治虫",
+        "藤子不二雄",
+        "鳥山明"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 293,
+      "text": "「名探偵コナン」の作者は？",
+      "options": [
+        "青山剛昌",
+        "高橋留美子",
+        "武内直子",
+        "CLAMP"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 294,
+      "text": "「犬夜叉」の作者は？",
+      "options": [
+        "高橋留美子",
+        "武内直子",
+        "CLAMP",
+        "青山剛昌"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 295,
+      "text": "「るろうに剣心」の作者は？",
+      "options": [
+        "和月伸宏",
+        "高橋留美子",
+        "武内直子",
+        "鳥山明"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 296,
+      "text": "「SLAM DUNK」の作者は？",
+      "options": [
+        "井上雄彦",
+        "高橋留美子",
+        "武内直子",
+        "鳥山明"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 297,
+      "text": "「ドラゴンボール」の作者は？",
+      "options": [
+        "鳥山明",
+        "高橋留美子",
+        "武内直子",
+        "井上雄彦"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 298,
+      "text": "「北斗の拳」の作者は？",
+      "options": [
+        "原哲夫",
+        "高橋留美子",
+        "武内直子",
+        "鳥山明"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 299,
+      "text": "「ジョジョの奇妙な冒険」の作者は？",
+      "options": [
+        "荒木飛呂彦",
+        "高橋留美子",
+        "武内直子",
+        "鳥山明"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 300,
+      "text": "「鬼滅の刃」の作者は？",
+      "options": [
+        "吾峠呼世晴",
+        "藤本タツキ",
+        "芥見下々",
+        "堀越耕平"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 301,
+      "text": "「呪術廻戦」の作者は？",
+      "options": [
+        "芥見下々",
+        "吾峠呼世晴",
+        "藤本タツキ",
+        "堀越耕平"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 302,
+      "text": "「チェンソーマン」の作者は？",
+      "options": [
+        "藤本タツキ",
+        "吾峠呼世晴",
+        "芥見下々",
+        "堀越耕平"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 303,
+      "text": "「スパイファミリー」の作者は？",
+      "options": [
+        "遠藤達哉",
+        "吾峠呼世晴",
+        "藤本タツキ",
+        "芥見下々"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 304,
+      "text": "「ブルーロック」の作者は？",
+      "options": [
+        "金城宗幸",
+        "吾峠呼世晴",
+        "藤本タツキ",
+        "芥見下々"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 305,
+      "text": "「僕のヒーローアカデミア」の作者は？",
+      "options": [
+        "堀越耕平",
+        "吾峠呼世晴",
+        "藤本タツキ",
+        "芥見下々"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 306,
+      "text": "「進撃の巨人」の作者は？",
+      "options": [
+        "諫山創",
+        "吾峠呼世晴",
+        "藤本タツキ",
+        "芥見下々"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 307,
+      "text": "「ワンピース」の作者は？",
+      "options": [
+        "尾田栄一郎",
+        "吾峠呼世晴",
+        "藤本タツキ",
+        "芥見下々"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 308,
+      "text": "「ナルト」の作者は？",
+      "options": [
+        "岸本斉史",
+        "吾峠呼世晴",
+        "藤本タツキ",
+        "芥見下々"
+      ],
+      "correctIndex": 0,
+      "genre": "アニメ・ゲーム"
+    },
+    {
+      "id": 309,
+      "text": "世界で一番人口が多い国は？",
+      "options": [
+        "インド",
+        "中国",
+        "アメリカ",
+        "インドネシア"
+      ],
+      "correctIndex": 1,
+      "genre": "世界"
+    },
+    {
+      "id": 310,
+      "text": "日本で一番人口が多い都市は？",
+      "options": [
+        "大阪",
+        "横浜",
+        "東京",
+        "名古屋"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 311,
+      "text": "日本で一番面積が大きい都道府県は？",
+      "options": [
+        "岩手",
+        "福島",
+        "北海道",
+        "長野"
+      ],
+      "correctIndex": 2,
+      "genre": "日本"
+    },
+    {
+      "id": 312,
+      "text": "平安時代は何年から？",
+      "options": [
+        "710年",
+        "794年",
+        "1192年",
+        "1336年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 313,
+      "text": "鎌倉時代は何年から？",
+      "options": [
+        "794年",
+        "1192年",
+        "1336年",
+        "1573年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 314,
+      "text": "室町時代は何年から？",
+      "options": [
+        "1192年",
+        "1336年",
+        "1573年",
+        "1603年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 315,
+      "text": "安土桃山時代は何年から？",
+      "options": [
+        "1336年",
+        "1573年",
+        "1603年",
+        "1868年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 316,
+      "text": "江戸時代は何年から？",
+      "options": [
+        "1573年",
+        "1603年",
+        "1868年",
+        "1912年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 317,
+      "text": "ナポレオンは何国の皇帝？",
+      "options": [
+        "イギリス",
+        "ドイツ",
+        "フランス",
+        "イタリア"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 318,
+      "text": "クリストファー・コロンブスは何を発見？",
+      "options": [
+        "インド",
+        "アメリカ大陸",
+        "オーストラリア",
+        "南極"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 319,
+      "text": "ルネサンスは何で始まった？",
+      "options": [
+        "フランス",
+        "イギリス",
+        "イタリア",
+        "ドイツ"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 320,
+      "text": "産業革命は何で始まった？",
+      "options": [
+        "アメリカ",
+        "フランス",
+        "イギリス",
+        "ドイツ"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 321,
+      "text": "フランス革命は何年？",
+      "options": [
+        "1776年",
+        "1789年",
+        "1804年",
+        "1848年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 322,
+      "text": "アメリカ独立宣言は何年？",
+      "options": [
+        "1776年",
+        "1789年",
+        "1804年",
+        "1861年"
+      ],
+      "correctIndex": 0,
+      "genre": "歴史"
+    },
+    {
+      "id": 323,
+      "text": "南北戦争は何国の戦争？",
+      "options": [
+        "イギリス",
+        "フランス",
+        "アメリカ",
+        "ドイツ"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 324,
+      "text": "第一次世界大戦の発端は？",
+      "options": [
+        "フランス",
+        "ドイツ",
+        "サラエボ",
+        "ポーランド"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 325,
+      "text": "第二次世界大戦の発端は？",
+      "options": [
+        "ポーランド",
+        "フランス",
+        "ドイツ",
+        "イギリス"
+      ],
+      "correctIndex": 0,
+      "genre": "歴史"
+    },
+    {
+      "id": 326,
+      "text": "冷戦は何国の対立？",
+      "options": [
+        "アメリカ対ドイツ",
+        "アメリカ対ソ連",
+        "イギリス対フランス",
+        "中国対日本"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 327,
+      "text": "ベルリンの壁が崩壊したのは何年？",
+      "options": [
+        "1987年",
+        "1989年",
+        "1991年",
+        "1993年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 328,
+      "text": "ソ連が解体したのは何年？",
+      "options": [
+        "1989年",
+        "1991年",
+        "1993年",
+        "1995年"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    },
+    {
+      "id": 329,
+      "text": "ラーメンの「チャーシュー」は何肉？",
+      "options": [
+        "牛肉",
+        "豚肉",
+        "鶏肉",
+        "羊肉"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 330,
+      "text": "ラーメンの「メンマ」は何から作る？",
+      "options": [
+        "大根",
+        "筍",
+        "大豆",
+        "昆布"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 331,
+      "text": "寿司の「ガリ」は何？",
+      "options": [
+        "生姜",
+        "ワサビ",
+        "大根",
+        "キュウリ"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 332,
+      "text": "寿司の「ムラサキ」は何？",
+      "options": [
+        "醤油",
+        "ワサビ",
+        "生姜",
+        "大根"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 333,
+      "text": "おでんの「大根」はどうやって煮る？",
+      "options": [
+        "強火で",
+        "弱火で",
+        "蒸す",
+        "焼く"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 334,
+      "text": "おでんの「卵」は何の卵？",
+      "options": [
+        "鶏卵",
+        "うずら卵",
+        "アヒルの卵",
+        "ガチョウの卵"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 335,
+      "text": "おでんの「こんにゃく」は何から作る？",
+      "options": [
+        "イモ",
+        "大豆",
+        "米",
+        "小麦"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 336,
+      "text": "おでんの「ちくわ」は何から作る？",
+      "options": [
+        "魚",
+        "大豆",
+        "米",
+        "小麦"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 337,
+      "text": "おでんの「はんぺん」は何から作る？",
+      "options": [
+        "魚",
+        "大豆",
+        "米",
+        "小麦"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 338,
+      "text": "おでんの「さつま揚げ」は何から作る？",
+      "options": [
+        "魚",
+        "大豆",
+        "米",
+        "小麦"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 339,
+      "text": "天ぷらの「衣」は何が主材料？",
+      "options": [
+        "米",
+        "小麦粉",
+        "そば粉",
+        "とうもろこし"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 340,
+      "text": "天ぷらの「海老」は何？",
+      "options": [
+        "魚",
+        "エビ",
+        "カニ",
+        "イカ"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 341,
+      "text": "天ぷらの「きす」は何？",
+      "options": [
+        "魚",
+        "エビ",
+        "カニ",
+        "イカ"
+      ],
+      "correctIndex": 0,
+      "genre": "食べ物"
+    },
+    {
+      "id": 342,
+      "text": "天ぷらの「かぼちゃ」は何？",
+      "options": [
+        "魚",
+        "野菜",
+        "肉",
+        "卵"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 343,
+      "text": "天ぷらの「さつまいも」は何？",
+      "options": [
+        "魚",
+        "野菜",
+        "肉",
+        "卵"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 344,
+      "text": "天ぷらの「ししとう」は何？",
+      "options": [
+        "魚",
+        "野菜",
+        "肉",
+        "卵"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 345,
+      "text": "天ぷらの「レンコン」は何？",
+      "options": [
+        "魚",
+        "野菜",
+        "肉",
+        "卵"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 346,
+      "text": "天ぷらの「しそ」は何？",
+      "options": [
+        "魚",
+        "野菜",
+        "肉",
+        "卵"
+      ],
+      "correctIndex": 1,
+      "genre": "食べ物"
+    },
+    {
+      "id": 347,
+      "text": "天ぷらの「うずら」は何？",
+      "options": [
+        "魚",
+        "野菜",
+        "肉",
+        "卵"
+      ],
+      "correctIndex": 2,
+      "genre": "食べ物"
+    },
+    {
+      "id": 348,
+      "text": "カレーの「ルー」は何？",
+      "options": [
+        "スープ",
+        "ソース",
+        "ペースト",
+        "粉末"
+      ],
+      "correctIndex": 2,
+      "genre": "食べ物"
+    },
+    {
+      "id": 349,
+      "text": "日本の初代天皇は？",
+      "options": [
+        "継体天皇",
+        "崇神天皇",
+        "神武天皇",
+        "景行天皇"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 350,
+      "text": "聖徳太子が作ったとされる憲法は？",
+      "options": [
+        "大宝律令",
+        "飛鳥憲法",
+        "十七条憲法",
+        "律令制"
+      ],
+      "correctIndex": 2,
+      "genre": "歴史"
+    },
+    {
+      "id": 351,
+      "text": "坂本龍馬が提出したとされる方案は？",
+      "options": [
+        "大政奉還",
+        "船中八策",
+        "王政復古",
+        "五箇条の御誓文"
+      ],
+      "correctIndex": 1,
+      "genre": "歴史"
+    }
+  ]
+}

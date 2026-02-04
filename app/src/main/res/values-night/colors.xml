@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 语义色（深色主题） -->
+    <color name="primary">#FF90CAF9</color>
+    <color name="onPrimary">#FF003258</color>
+    <color name="primaryContainer">#FF004A77</color>
+    <color name="onPrimaryContainer">#FFD0E4FF</color>
+    <color name="surface">#FF1C1B1F</color>
+    <color name="onSurface">#FFE6E1E5</color>
+    <color name="onSurfaceVariant">#FFCAC4D0</color>
+    <color name="surfaceContainer">#FF211F26</color>
+    <color name="surfaceContainerHigh">#FF2B2930</color>
+    <color name="surfaceContainerHighest">#FF36343B</color>
+    <color name="outline">#FF938F99</color>
+    <color name="outlineVariant">#FF49454F</color>
+    <color name="correct">#FF66BB6A</color>
+    <color name="incorrect">#FFE57373</color>
+    <color name="manga_background_dark">#FF1C1B1F</color>
+    <!-- 兼容旧引用 -->
+    <color name="manga_pink">@color/surfaceContainer</color>
+    <color name="manga_blue">@color/surfaceContainerHigh</color>
+    <color name="manga_cream">@color/onSurface</color>
+    <color name="manga_ink">@color/onSurface</color>
+    <color name="manga_accent">@color/primary</color>
+    <color name="manga_border">@color/outlineVariant</color>
+    <color name="manga_card">@color/surfaceContainerHigh</color>
+    <color name="manga_chip">@color/surfaceContainer</color>
+    <color name="manga_correct">@color/correct</color>
+    <color name="manga_incorrect">@color/incorrect</color>
+    <color name="manga_button_text">@color/onSurface</color>
+    <color name="manga_ink_secondary">@color/onSurfaceVariant</color>
+    <!-- 排行榜（深色） -->
+    <color name="rank_medal_gold">#FFC107</color>
+    <color name="rank_medal_gold_text">#5D4200</color>
+    <color name="rank_medal_silver">#9E9E9E</color>
+    <color name="rank_medal_silver_text">#ECEFF1</color>
+    <color name="rank_medal_bronze">#FF8A65</color>
+    <color name="rank_medal_bronze_text">#FFCCBC</color>
+    <color name="rank_item_me_bg">#1E3A5F</color>
+
+    <!-- 经验条（深色主题） -->
+    <color name="exp_track">#801A237E</color>
+    <color name="exp_fill">#FFC107</color>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 将 app 图标放入自适应图标安全区（中心 72dp），避免被启动器裁剪 -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="18dp"
+    android:insetTop="18dp"
+    android:insetRight="18dp"
+    android:insetBottom="18dp"
+    android:drawable="@drawable/logo_zatsugaku_king" />

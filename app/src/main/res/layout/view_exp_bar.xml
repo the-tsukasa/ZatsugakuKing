@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 经验条独立组件：蓝底 + 黄条（子 View 宽度按比例）+ 外框，全部限制在容器内 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/exp_bar_root"
+    android:layout_width="match_parent"
+    android:layout_height="28dp"
+    android:minHeight="28dp"
+    android:clipChildren="true"
+    android:clipToPadding="true">
+
+    <!-- 蓝色底槽：铺满经验条内部 -->
+    <View
+        android:id="@+id/exp_bar_track"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_exp_track" />
+
+    <!-- 黄色 EXP 填充：仅此子 View 宽度随 currentExp/maxExp 变化，被外框限制在内部 -->
+    <View
+        android:id="@+id/exp_bar_fill"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_exp_fill" />
+
+    <!-- 金框装饰：代码绘制（金色描边、透明中间），最上层 -->
+    <View
+        android:id="@+id/exp_bar_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_exp_bar_frame"
+        android:contentDescription="@null" />
+</FrameLayout>

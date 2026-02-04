@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">雑学王</string>
+    <string name="app_title">雑学王</string>
+    <string name="app_subtitle">豆知識で王になろう</string>
+    <string name="main_instruction">毎回ランダムで5問出題。答えを選んで「回答」をタップ。正解・不正解はその場で表示され、5問終了まで進めます。リセットで何度でも挑戦できます。</string>
+    <string name="main_feature_title">このアプリの特徴</string>
+    <string name="main_feature_1">・毎回ちがう5問がランダムで出題</string>
+    <string name="main_feature_2">・答えはその場で正解／不正解を表示</string>
+    <string name="main_feature_3">・リセットで何度でも挑戦可能</string>
+    <string name="start_quiz">クイズを始める</string>
+
+    <string name="answer_button">回答</string>
+    <string name="reset_button">リセット</string>
+    <string name="top_button">トップへ戻る</string>
+    <string name="back_button">戻る</string>
+
+    <string name="progress_format">第%1$d問 / %2$d</string>
+    <string name="status_format">正答数: %1$d</string>
+    <string name="result_correct">正解！</string>
+    <string name="result_incorrect">不正解</string>
+    <string name="total_count_format">出題数: %1$d</string>
+    <string name="correct_count_format">正答数: %1$d</string>
+    <string name="last_question_message">5問終了！おつかれさま！</string>
+    <string name="quiz_complete_text">クイズ終了！</string>
+    <string name="select_answer_message">答えを選択してください。</string>
+    <string name="quiz_finished_message">リセットして再挑戦できます。</string>
+    <string name="no_questions_error">問題を読み込めませんでした。</string>
+
+    <!-- レベル・称号（10段階经典方案） -->
+    <string name="rank_section_title">レベル・称号</string>
+    <string name="rank_current">現在の称号</string>
+    <string name="rank_lv1">Lv.1 雑魚</string>
+    <string name="rank_lv2">Lv.2 雑学見習い</string>
+    <string name="rank_lv3">Lv.3 雑学初心者</string>
+    <string name="rank_lv4">Lv.4 雑学好き</string>
+    <string name="rank_lv5">Lv.5 雑学通</string>
+    <string name="rank_lv6">Lv.6 雑学博士</string>
+    <string name="rank_lv7">Lv.7 雑学研究者</string>
+    <string name="rank_lv8">Lv.8 雑学賢者</string>
+    <string name="rank_lv9">Lv.9 雑学マスター</string>
+    <string name="rank_lv10">Lv.10 雑学王 👑</string>
+    <string name="rank_desc_lv1">完全初心者（自虐ポジ）</string>
+    <string name="rank_desc_lv2">学び始め</string>
+    <string name="rank_desc_lv3">入門</string>
+    <string name="rank_desc_lv4">興味が出てきた</string>
+    <string name="rank_desc_lv5">半人前の通</string>
+    <string name="rank_desc_lv6">知識型</string>
+    <string name="rank_desc_lv7">体系的に理解</string>
+    <string name="rank_desc_lv8">オールラウンド型</string>
+    <string name="rank_desc_lv9">トップクラス</string>
+    <string name="rank_desc_lv10">究極の目標 👑</string>
+    <string name="rank_only_lv1">雑魚</string>
+    <string name="rank_only_lv2">雑学見習い</string>
+    <string name="rank_only_lv3">雑学初心者</string>
+    <string name="rank_only_lv4">雑学好き</string>
+    <string name="rank_only_lv5">雑学通</string>
+    <string name="rank_only_lv6">雑学博士</string>
+    <string name="rank_only_lv7">雑学研究者</string>
+    <string name="rank_only_lv8">雑学賢者</string>
+    <string name="rank_only_lv9">雑学マスター</string>
+    <string name="rank_only_lv10">雑学王 👑</string>
+    <string name="rank_rule">累計EXPでレベルアップ。正解+10、連対・全問正解でボーナス。</string>
+    <string name="rank_stats">累計EXP: %1$d　累計正解: %2$d　連続正解: %3$d</string>
+    <string name="toast_rank_up">ランクアップ！ %1$s になりました！</string>
+    <string name="exp_level_title_format">Lv.%1$d %2$s</string>
+    <string name="exp_bar_format">%1$d / %2$d EXP</string>
+    <string name="exp_progress_hint">あと %1$d 問で Lv.%2$d！</string>
+    <string name="toast_all_correct_bonus">全問正解ボーナス +%1$d EXP！</string>
+
+    <!-- 升级弹窗 2️⃣ -->
+    <string name="level_up_title">🎉 Lv.UP!</string>
+    <string name="level_up_unlock_title">新しい称号を解放</string>
+    <string name="level_up_unlock_border">新しいアバター枠を解放</string>
+    <string name="level_up_confirm">確認</string>
+
+    <!-- ジャンル別 -->
+    <string name="genre_select_label">ジャンルを選んでください</string>
+    <string name="genre_all">すべて</string>
+    <string name="genre_japan">日本</string>
+    <string name="genre_world">世界</string>
+    <string name="genre_it">IT・テクノロジー</string>
+    <string name="genre_anime_game">アニメ・ゲーム</string>
+    <string name="genre_food">食べ物</string>
+    <string name="genre_history">歴史</string>
+    <string name="genre_no_questions">このジャンルには問題がありません。別のジャンルか「すべて」を選んでください。</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_home">ホーム</string>
+    <string name="nav_knowledge">知識センター</string>
+    <string name="nav_rank">ランキング</string>
+    <string name="nav_profile">マイページ</string>
+
+    <!-- 个人中心 -->
+    <string name="profile_default_nickname">雑魚</string>
+    <string name="profile_nickname_hint">ニックネームを入力</string>
+    <string name="profile_save">保存</string>
+    <string name="profile_avatar">アイコン</string>
+    <string name="profile_avatar_section">アイコン</string>
+    <string name="profile_avatar_pick_hint">下のアイコンをタップして切り替え</string>
+    <string name="profile_avatar_king_locked">Lv.10で解放</string>
+    <string name="profile_nickname_saved">ニックネームを保存しました</string>
+    <string name="profile_change_avatar_hint">タップしてアイコンを変更</string>
+
+    <!-- 知识中心 -->
+    <string name="knowledge_header_title">知識センター</string>
+    <string name="knowledge_header_subtitle">気になるジャンルから、毎日ちょっとずつ。</string>
+    <string name="knowledge_header_badge">1日5問で習慣化</string>
+    <string name="knowledge_title">ジャンル別に学ぶ</string>
+    <string name="knowledge_section_hint">ジャンルを選んで、クイズに挑戦しましょう。</string>
+    <string name="knowledge_tips_title">学びのヒント</string>
+    <string name="knowledge_tip_1">・「すべて」で広く、専門ジャンルで深く</string>
+    <string name="knowledge_tip_2">・正解した問題はメモして復習</string>
+    <string name="knowledge_tip_3">・連続正解でEXPボーナスを狙おう</string>
+    <string name="knowledge_badge_recommended">おすすめ</string>
+    <string name="knowledge_badge_trending">注目</string>
+    <string name="knowledge_desc_all">バランスよく幅広い雑学を学べます</string>
+    <string name="knowledge_desc_japan">日本の地理・文化・暮らしの豆知識</string>
+    <string name="knowledge_desc_world">世界の常識・歴史・話題をチェック</string>
+    <string name="knowledge_desc_it">ITリテラシーと最新テクノロジー</string>
+    <string name="knowledge_desc_anime_game">名作・話題作から小ネタまで</string>
+    <string name="knowledge_desc_food">食文化・料理・食材のうんちく</string>
+    <string name="knowledge_desc_history">時代の流れと人物の意外な話</string>
+    <string name="knowledge_coming_soon">コンテンツは準備中です</string>
+
+    <!-- 排行榜 -->
+    <string name="rank_title">スコアランキング</string>
+    <string name="rank_subtitle">累計正答数でランキング</string>
+    <string name="rank_my_score">マイスコア</string>
+    <string name="rank_position_label">順位</string>
+    <string name="rank_position_format">第%1$d位</string>
+    <string name="rank_score_format">%1$d 問正解</string>
+    <string name="rank_points_format">%1$d ポイント</string>
+    <string name="rank_you">あなた</string>
+    <string name="rank_virtual_user_1">たろう</string>
+    <string name="rank_virtual_user_2">花子</string>
+    <string name="rank_virtual_user_3">一郎</string>
+    <string name="rank_virtual_user_4">さくら</string>
+    <string name="rank_virtual_user_5">ゆうき</string>
+    <string name="rank_virtual_user_6">みく</string>
+    <string name="rank_virtual_user_7">たける</string>
+    <string name="rank_virtual_user_8">あおい</string>
+    <string name="rank_virtual_user_9">はると</string>
+    <string name="rank_virtual_user_10">れん</string>
+
+    <!-- 言語切替 -->
+    <string name="language_label">言語</string>
+    <string name="language_zh">中文</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_en">English</string>
+    <string name="profile_nickname_label">ニックネーム</string>
+    <string name="profile_stat_total">累計正解</string>
+    <string name="profile_stat_consecutive">連続正解</string>
+    <string name="profile_stat_exp">累計EXP</string>
+    <string name="profile_section_settings">設定</string>
+    <string name="profile_avatar_updated">アイコンを更新しました</string>
+    <string name="profile_language_changed">言語を切り替えました</string>
+    <string name="profile_save_nickname">ニックネームを保存</string>
+    <string name="profile_nickname_saved_short">保存しました</string>
+    <!-- Accessibility: avatar option descriptions (use with format: %1$s = optional "selected", %2$s = optional "Lv.Xで解放") -->
+    <string name="profile_avatar_opt_desc">アバター %1$d、%2$s</string>
+    <string name="profile_avatar_opt_selected">選択中</string>
+    <string name="profile_avatar_opt_available">利用可能</string>
+    <string name="profile_avatar_opt_unlock_level">Lv.%1$dで解放</string>
+    <string name="profile_rank_badge_content_desc">現在の称号: %1$s</string>
+    <string name="profile_stats_content_desc">累計EXP %1$d、累計正解 %2$d、連続正解 %3$d</string>
+    <string name="profile_section_personal">プロフィール</string>
+    <string name="profile_section_achievements">達成状況</string>
+    <string name="profile_exp_level_max">Lv.10 満級達成！</string>
+    <string name="profile_stat_questions">%1$d 問</string>
+    <string name="profile_language_select_title">言語を選択</string>
+</resources>

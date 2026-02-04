@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 经验条 ProgressDrawable：蓝色底槽 + 黄色 EXP 填充，仅中间可拉伸 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 底槽：蓝色 -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+            <solid android:color="@color/exp_track" />
+        </shape>
+    </item>
+    <!-- 填充：黄色，由 progress 控制裁剪宽度 -->
+    <item android:id="@android:id/progress">
+        <clip android:clipOrientation="horizontal" android:gravity="start">
+            <shape android:shape="rectangle">
+                <corners android:radius="4dp" />
+                <solid android:color="@color/exp_fill" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

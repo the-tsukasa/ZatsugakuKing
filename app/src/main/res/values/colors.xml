@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Material 3 语义色（亮色主题） -->
+    <color name="primary">#FF1976D2</color>
+    <color name="onPrimary">#FFFFFFFF</color>
+    <color name="primaryContainer">#FFDCE7FF</color>
+    <color name="onPrimaryContainer">#FF001B3F</color>
+    <color name="surface">#FFF8F9FA</color>
+    <color name="onSurface">#FF1C1B1F</color>
+    <color name="onSurfaceVariant">#FF49454F</color>
+    <color name="surfaceContainer">#FFEEEEF0</color>
+    <color name="surfaceContainerHigh">#FFE8E8EC</color>
+    <color name="surfaceContainerHighest">#FFE3E2E6</color>
+    <color name="outline">#FF79747E</color>
+    <color name="outlineVariant">#FFCAC4D0</color>
+
+    <!-- 功能色 -->
+    <color name="correct">#FF4CAF50</color>
+    <color name="incorrect">#FFE57373</color>
+
+    <!-- 兼容旧引用（别名） -->
+    <color name="manga_pink">@color/surfaceContainer</color>
+    <color name="manga_blue">@color/surfaceContainerHigh</color>
+    <color name="manga_cream">@color/surface</color>
+    <color name="manga_ink">@color/onSurface</color>
+    <color name="manga_accent">@color/primary</color>
+    <color name="manga_border">@color/outlineVariant</color>
+    <color name="manga_card">@color/surfaceContainerHighest</color>
+    <color name="manga_chip">@color/surfaceContainer</color>
+    <color name="manga_correct">@color/correct</color>
+    <color name="manga_incorrect">@color/incorrect</color>
+    <color name="manga_button_text">@color/onSurface</color>
+    <color name="manga_ink_secondary">@color/onSurfaceVariant</color>
+
+    <!-- 排行榜奖牌色 -->
+    <color name="rank_medal_gold">#FFD32F</color>
+    <color name="rank_medal_gold_text">#5D4200</color>
+    <color name="rank_medal_silver">#B0BEC5</color>
+    <color name="rank_medal_silver_text">#37474F</color>
+    <color name="rank_medal_bronze">#FFAB91</color>
+    <color name="rank_medal_bronze_text">#BF360C</color>
+    <color name="rank_item_me_bg">#E3F2FD</color>
+
+    <!-- 经验条：蓝色底槽 + 黄色 EXP 填充 -->
+    <color name="exp_track">#CC1E3A5C</color>
+    <color name="exp_fill">#FFD54F</color>
+</resources>
