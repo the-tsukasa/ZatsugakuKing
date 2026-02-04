@@ -2,6 +2,14 @@
 
 雑学クイズで楽しく学べる Android アプリです。
 
+## デモ
+
+| ホーム | クイズ |
+|--------|--------|
+| ![ホーム](app/src/main/assets/home.png) | ![クイズ](app/src/main/assets/quiz.png) |
+| **リザルト** | **マイページ** |
+| ![リザルト](app/src/main/assets/result.png) | ![マイページ](app/src/main/assets/my_page.png) |
+
 ## 主な機能
 
 - **ホーム** … クイック挑戦でランダム5問のクイズを開始。
